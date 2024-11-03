@@ -10,7 +10,8 @@ This repo contains the code for the analysis of the 2024 US election prediction.
 
 The repo is structured as:
 
--   `data/raw_data` contains the simulated data and the raw data obtained from open-source data about the US election.
+-   `data/simulate_data` contains the simulated data.
+-   `data/raw_data` contains the raw data obtained from open-source data about the US election.
 -   `data/analysis_data` contains the cleaned dataset that was constructed.
 -   `model` contains fitted models.
 -   `other` contains relevant literature, details about LLM chat interactions, and sketches.
