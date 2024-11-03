@@ -4,7 +4,7 @@
 # Date: 2 November 2024
 # Contact: yanzun.jiang@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: None.
+# Pre-requisites: Should have simulated a dataset.
 # Any other information needed? None.
 
 
