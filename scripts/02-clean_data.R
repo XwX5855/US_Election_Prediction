@@ -9,6 +9,8 @@
 
 #### Workspace setup ####
 library(tidyverse)
+library(arrow)
+
 
 #### Clean data ####
 raw_data <- read_csv("data/01-raw_data/raw_data.csv")
@@ -38,4 +40,4 @@ cleaned_data <-
   tidyr::drop_na()
 
 #### Save data ####
-write_csv(cleaned_data, "data/02-analysis_data/analysis_data.csv")
+write_parquet(cleaned_data, "data/02-analysis_data/analysis_data.parquet")

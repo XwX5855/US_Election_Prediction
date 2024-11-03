@@ -10,8 +10,9 @@
 
 #### Workspace setup ####
 library(tidyverse)
+library(arrow)
 
-analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
+analysis_data <- read_parquet("data/02-analysis_data/analysis_data.parquet")
 
 # Test if the data was successfully loaded
 if (exists("analysis_data")) {
@@ -22,7 +23,6 @@ if (exists("analysis_data")) {
 
 
 #### Test data ####
-
 # Check if the dataset has 1000 rows
 if (nrow(analysis_data) == 1000) {
   message("Test Passed: The dataset has 1000 rows.")

@@ -22,7 +22,6 @@ if (exists("simulated_data")) {
 
 
 #### Test data ####
-
 # Check if the dataset has 500 rows
 if (nrow(simulated_data) == 500) {
   message("Test Passed: The dataset has 500 rows.")
