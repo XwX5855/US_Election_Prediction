@@ -1,152 +1,501 @@
-division,state,party
-Division 1,Victoria,Liberal
-Division 2,New South Wales,Liberal
-Division 3,Tasmania,Liberal
-Division 4,New South Wales,Liberal
-Division 5,Queensland,Liberal
-Division 6,New South Wales,Labor
-Division 7,Victoria,Liberal
-Division 8,Western Australia,Labor
-Division 9,Western Australia,Greens
-Division 10,Queensland,Labor
-Division 11,Queensland,Labor
-Division 12,Northern Territory,Liberal
-Division 13,New South Wales,Labor
-Division 14,Western Australia,Labor
-Division 15,Western Australia,National
-Division 16,Victoria,Liberal
-Division 17,South Australia,Liberal
-Division 18,Victoria,Liberal
-Division 19,Western Australia,Labor
-Division 20,South Australia,Labor
-Division 21,New South Wales,Liberal
-Division 22,Queensland,Greens
-Division 23,New South Wales,Liberal
-Division 24,New South Wales,Liberal
-Division 25,Queensland,Labor
-Division 26,Victoria,National
-Division 27,New South Wales,Liberal
-Division 28,Queensland,Liberal
-Division 29,Tasmania,Liberal
-Division 30,South Australia,Liberal
-Division 31,New South Wales,Liberal
-Division 32,Victoria,Labor
-Division 33,Tasmania,Liberal
-Division 34,New South Wales,Liberal
-Division 35,Western Australia,Labor
-Division 36,New South Wales,Liberal
-Division 37,Tasmania,Greens
-Division 38,Tasmania,Labor
-Division 39,Victoria,Greens
-Division 40,South Australia,Labor
-Division 41,New South Wales,Other
-Division 42,New South Wales,Other
-Division 43,Tasmania,Labor
-Division 44,Tasmania,National
-Division 45,Queensland,Liberal
-Division 46,Australian Capital Territory,Other
-Division 47,Queensland,Labor
-Division 48,Queensland,Other
-Division 49,South Australia,Liberal
-Division 50,Victoria,National
-Division 51,South Australia,Liberal
-Division 52,Victoria,Labor
-Division 53,South Australia,National
-Division 54,Queensland,Liberal
-Division 55,Queensland,Labor
-Division 56,South Australia,Liberal
-Division 57,New South Wales,Other
-Division 58,Northern Territory,Liberal
-Division 59,New South Wales,Labor
-Division 60,Western Australia,Labor
-Division 61,New South Wales,Liberal
-Division 62,South Australia,Liberal
-Division 63,Queensland,Labor
-Division 64,Tasmania,Labor
-Division 65,South Australia,Labor
-Division 66,Victoria,Labor
-Division 67,Queensland,Liberal
-Division 68,Queensland,Liberal
-Division 69,Tasmania,Labor
-Division 70,South Australia,National
-Division 71,Australian Capital Territory,Labor
-Division 72,Western Australia,Labor
-Division 73,Queensland,National
-Division 74,Victoria,Labor
-Division 75,Western Australia,Labor
-Division 76,Tasmania,Labor
-Division 77,Queensland,Liberal
-Division 78,Western Australia,Liberal
-Division 79,Queensland,Labor
-Division 80,Queensland,Liberal
-Division 81,Victoria,Labor
-Division 82,New South Wales,Liberal
-Division 83,Victoria,Liberal
-Division 84,Queensland,National
-Division 85,Western Australia,Liberal
-Division 86,New South Wales,Labor
-Division 87,Queensland,Liberal
-Division 88,New South Wales,Liberal
-Division 89,Tasmania,Liberal
-Division 90,South Australia,Labor
-Division 91,Victoria,Liberal
-Division 92,New South Wales,Labor
-Division 93,Tasmania,Labor
-Division 94,South Australia,Labor
-Division 95,Victoria,Liberal
-Division 96,Victoria,Labor
-Division 97,Western Australia,Liberal
-Division 98,Queensland,Liberal
-Division 99,South Australia,Liberal
-Division 100,New South Wales,Labor
-Division 101,South Australia,Labor
-Division 102,New South Wales,Labor
-Division 103,Victoria,Labor
-Division 104,Victoria,Labor
-Division 105,South Australia,Other
-Division 106,Western Australia,Labor
-Division 107,Tasmania,Liberal
-Division 108,Victoria,Labor
-Division 109,Queensland,Liberal
-Division 110,Victoria,Labor
-Division 111,Australian Capital Territory,Labor
-Division 112,Victoria,Liberal
-Division 113,Victoria,Liberal
-Division 114,Victoria,Liberal
-Division 115,Tasmania,Labor
-Division 116,Victoria,Labor
-Division 117,New South Wales,Labor
-Division 118,Victoria,Labor
-Division 119,Victoria,Greens
-Division 120,Northern Territory,Labor
-Division 121,South Australia,Liberal
-Division 122,New South Wales,Liberal
-Division 123,New South Wales,Labor
-Division 124,New South Wales,Liberal
-Division 125,New South Wales,National
-Division 126,New South Wales,Labor
-Division 127,Queensland,Labor
-Division 128,New South Wales,Other
-Division 129,Queensland,Labor
-Division 130,Australian Capital Territory,Liberal
-Division 131,Tasmania,Greens
-Division 132,New South Wales,National
-Division 133,New South Wales,Labor
-Division 134,Northern Territory,Labor
-Division 135,South Australia,National
-Division 136,Victoria,Labor
-Division 137,Tasmania,National
-Division 138,South Australia,Liberal
-Division 139,New South Wales,Labor
-Division 140,Victoria,Other
-Division 141,Queensland,Greens
-Division 142,Victoria,National
-Division 143,Western Australia,Labor
-Division 144,Victoria,Labor
-Division 145,Queensland,Liberal
-Division 146,Tasmania,Liberal
-Division 147,South Australia,Liberal
-Division 148,Victoria,Labor
-Division 149,New South Wales,National
-Division 150,New South Wales,Labor
-Division 151,Victoria,Liberal
+age,gender,race,employ,education,state,vote
+36,Female,Hispanic,Part-time,High School,Oklahoma,Kamala Harris
+32,Female,White,Full-time,High School,Rhode Island,Kamala Harris
+62,Male,White,Retired,High School,South Dakota,Donald Trump
+50,Male,Hispanic,Retired,Bachelor,Massachusetts,Kamala Harris
+59,Female,Hispanic,Part-time,Master,Kentucky,Donald Trump
+75,Female,Black,Retired,High School,Maine,Donald Trump
+35,Non-binary,White,Full-time,High School,Nebraska,Kamala Harris
+65,Female,Black,Full-time,Bachelor,New Mexico,Donald Trump
+68,Male,Hispanic,Full-time,High School,Missouri,Kamala Harris
+34,Male,Hispanic,Full-time,College,Maryland,Kamala Harris
+56,Female,Hispanic,Part-time,High School,Vermont,Donald Trump
+41,Male,Hispanic,Unemployed,Other,Hawaii,Kamala Harris
+60,Female,White,Full-time,High School,Alabama,Donald Trump
+60,Non-binary,Hispanic,Full-time,Bachelor,Iowa,Donald Trump
+38,Female,Other,Full-time,High School,California,Donald Trump
+74,Male,White,Retired,High School,Massachusetts,Kamala Harris
+30,Male,Hispanic,Full-time,College,Tennessee,Kamala Harris
+21,Female,Hispanic,Retired,College,Hawaii,Donald Trump
+49,Male,Hispanic,Part-time,High School,Connecticut,Donald Trump
+27,Male,Black,Unemployed,College,Wyoming,Kamala Harris
+24,Female,White,Retired,High School,Louisiana,Kamala Harris
+52,Male,Asian,Full-time,Bachelor,Iowa,Kamala Harris
+63,Male,Black,Retired,High School,Wyoming,Donald Trump
+27,Female,Black,Full-time,College,Idaho,Donald Trump
+32,Female,White,Full-time,Other,Hawaii,Kamala Harris
+61,Male,White,Full-time,College,Alaska,Kamala Harris
+23,Male,Hispanic,Part-time,College,California,Donald Trump
+55,Female,Other,Unemployed,Bachelor,West Virginia,Donald Trump
+57,Male,Hispanic,Unemployed,High School,Tennessee,Donald Trump
+21,Male,Asian,Full-time,Master,Arizona,Donald Trump
+38,Male,White,Full-time,College,Washington,Kamala Harris
+33,Female,Other,Full-time,High School,Alabama,Donald Trump
+41,Male,White,Retired,High School,Utah,Donald Trump
+27,Female,Black,Full-time,Other,New York,Donald Trump
+76,Female,Hispanic,Full-time,High School,Texas,Donald Trump
+31,Male,White,Full-time,High School,Kansas,Kamala Harris
+63,Male,Black,Full-time,PhD,North Carolina,Donald Trump
+57,Female,White,Retired,Bachelor,Arizona,Kamala Harris
+61,Female,Black,Retired,High School,West Virginia,Kamala Harris
+78,Male,Black,Part-time,College,Hawaii,Kamala Harris
+47,Non-binary,Hispanic,Full-time,College,Maine,Kamala Harris
+41,Male,Other,Full-time,College,Illinois,Donald Trump
+35,Male,Other,Part-time,High School,Arizona,Kamala Harris
+32,Male,Black,Full-time,Other,Oklahoma,Donald Trump
+21,Male,White,Full-time,Other,New Hampshire,Donald Trump
+23,Male,Black,Full-time,PhD,Ohio,Donald Trump
+42,Female,Other,Full-time,High School,North Carolina,Donald Trump
+41,Male,Asian,Part-time,High School,Oregon,Kamala Harris
+34,Female,Black,Full-time,Master,Connecticut,Donald Trump
+39,Male,Hispanic,Full-time,High School,Kentucky,Donald Trump
+47,Female,Black,Unemployed,High School,Mississippi,Kamala Harris
+71,Female,Asian,Part-time,High School,Wisconsin,Donald Trump
+47,Female,Black,Full-time,High School,Connecticut,Kamala Harris
+61,Male,Other,Full-time,Other,Texas,Donald Trump
+52,Male,Black,Full-time,Master,Virginia,Donald Trump
+80,Male,Asian,Full-time,High School,New Mexico,Donald Trump
+46,Male,White,Full-time,Bachelor,West Virginia,Donald Trump
+36,Female,Hispanic,Retired,Bachelor,Hawaii,Kamala Harris
+29,Male,White,Part-time,High School,Arkansas,Kamala Harris
+27,Female,White,Full-time,High School,West Virginia,Donald Trump
+48,Female,Other,Full-time,High School,Delaware,Donald Trump
+33,Male,Black,Full-time,High School,Nebraska,Donald Trump
+35,Female,Black,Retired,High School,Georgia,Kamala Harris
+26,Female,White,Full-time,College,Kentucky,Kamala Harris
+63,Male,Black,Full-time,High School,Louisiana,Kamala Harris
+37,Female,White,Full-time,High School,New York,Donald Trump
+76,Non-binary,Hispanic,Retired,High School,Maryland,Donald Trump
+78,Male,White,Full-time,College,Connecticut,Donald Trump
+64,Female,Black,Retired,College,Nevada,Donald Trump
+48,Female,White,Full-time,Master,Wisconsin,Donald Trump
+27,Female,White,Full-time,High School,Montana,Donald Trump
+30,Female,Asian,Retired,Bachelor,Vermont,Kamala Harris
+18,Non-binary,White,Unemployed,High School,North Dakota,Kamala Harris
+80,Female,Black,Full-time,College,Alaska,Donald Trump
+58,Female,Black,Retired,High School,Rhode Island,Donald Trump
+39,Female,Black,Part-time,High School,Florida,Kamala Harris
+53,Female,Asian,Part-time,Master,Illinois,Kamala Harris
+69,Female,Asian,Retired,PhD,Louisiana,Kamala Harris
+20,Non-binary,White,Unemployed,High School,Tennessee,Kamala Harris
+62,Female,White,Full-time,College,Virginia,Donald Trump
+51,Male,White,Part-time,Bachelor,Minnesota,Kamala Harris
+25,Female,White,Retired,College,Colorado,Kamala Harris
+49,Female,White,Retired,High School,Rhode Island,Donald Trump
+31,Female,Hispanic,Retired,College,Missouri,Kamala Harris
+41,Female,Black,Part-time,Master,Virginia,Kamala Harris
+40,Female,Black,Full-time,High School,Missouri,Donald Trump
+34,Female,White,Retired,Other,Idaho,Kamala Harris
+73,Male,Asian,Retired,Other,Louisiana,Kamala Harris
+43,Female,Black,Retired,High School,Virginia,Kamala Harris
+70,Female,White,Retired,PhD,North Dakota,Kamala Harris
+38,Male,Hispanic,Full-time,Other,Alabama,Donald Trump
+64,Female,Hispanic,Unemployed,College,Delaware,Donald Trump
+76,Male,White,Part-time,Other,Louisiana,Donald Trump
+25,Male,White,Retired,High School,Mississippi,Donald Trump
+47,Male,Hispanic,Full-time,Other,Iowa,Donald Trump
+54,Female,White,Full-time,Other,Delaware,Donald Trump
+57,Male,White,Retired,Master,Louisiana,Donald Trump
+24,Female,White,Full-time,College,Tennessee,Kamala Harris
+43,Female,White,Full-time,High School,Nevada,Donald Trump
+48,Male,Asian,Part-time,High School,Kentucky,Donald Trump
+61,Male,White,Part-time,Master,Kentucky,Kamala Harris
+55,Male,Other,Retired,Bachelor,Alaska,Kamala Harris
+27,Male,White,Full-time,High School,Michigan,Donald Trump
+34,Female,Hispanic,Retired,College,Vermont,Donald Trump
+66,Male,White,Full-time,High School,West Virginia,Kamala Harris
+18,Male,Other,Retired,High School,Georgia,Donald Trump
+78,Non-binary,Black,Full-time,High School,Rhode Island,Kamala Harris
+31,Female,White,Full-time,Other,Hawaii,Kamala Harris
+44,Male,Asian,Full-time,High School,New Mexico,Donald Trump
+29,Male,Black,Part-time,High School,Hawaii,Kamala Harris
+54,Female,Asian,Unemployed,High School,New Mexico,Donald Trump
+18,Male,White,Part-time,High School,Oregon,Donald Trump
+35,Female,Hispanic,Retired,Bachelor,Illinois,Donald Trump
+57,Female,Asian,Full-time,High School,South Dakota,Donald Trump
+73,Non-binary,White,Retired,High School,California,Donald Trump
+38,Female,Black,Full-time,High School,West Virginia,Donald Trump
+71,Female,White,Full-time,High School,Georgia,Kamala Harris
+74,Male,White,Full-time,Bachelor,North Dakota,Donald Trump
+62,Female,White,Unemployed,High School,South Dakota,Kamala Harris
+56,Male,Black,Retired,High School,Texas,Donald Trump
+75,Female,Black,Full-time,High School,Maryland,Donald Trump
+50,Male,Other,Full-time,College,Massachusetts,Kamala Harris
+59,Male,Other,Full-time,College,Kansas,Donald Trump
+62,Female,Black,Part-time,Other,Colorado,Donald Trump
+38,Male,White,Unemployed,High School,New Hampshire,Donald Trump
+64,Male,White,Part-time,Other,California,Donald Trump
+74,Female,White,Full-time,College,Mississippi,Donald Trump
+26,Female,Hispanic,Retired,High School,Arizona,Donald Trump
+62,Male,White,Full-time,Master,Illinois,Donald Trump
+44,Male,White,Retired,Other,Iowa,Kamala Harris
+24,Female,Black,Retired,Bachelor,Oregon,Kamala Harris
+71,Male,Hispanic,Full-time,Master,Oklahoma,Kamala Harris
+25,Non-binary,Black,Retired,Other,Arizona,Donald Trump
+49,Male,White,Full-time,High School,Utah,Kamala Harris
+29,Male,Asian,Full-time,High School,Louisiana,Kamala Harris
+32,Male,Hispanic,Full-time,Other,Nebraska,Donald Trump
+75,Male,Other,Full-time,Master,West Virginia,Kamala Harris
+45,Non-binary,Hispanic,Unemployed,PhD,Missouri,Kamala Harris
+22,Male,Black,Unemployed,Bachelor,Wisconsin,Kamala Harris
+61,Non-binary,Black,Full-time,Master,Vermont,Donald Trump
+53,Male,Black,Full-time,College,South Dakota,Donald Trump
+63,Male,Black,Retired,High School,Michigan,Donald Trump
+30,Female,White,Full-time,College,Maryland,Kamala Harris
+22,Female,White,Part-time,College,Minnesota,Kamala Harris
+48,Female,White,Full-time,Bachelor,Wisconsin,Donald Trump
+80,Female,Hispanic,Unemployed,PhD,Kentucky,Kamala Harris
+41,Female,Hispanic,Full-time,College,Nevada,Donald Trump
+63,Male,Other,Retired,College,California,Kamala Harris
+47,Male,Hispanic,Unemployed,High School,New Mexico,Kamala Harris
+74,Female,Hispanic,Full-time,High School,Louisiana,Kamala Harris
+23,Male,Black,Full-time,High School,Hawaii,Kamala Harris
+56,Female,Black,Full-time,College,Washington,Donald Trump
+28,Male,Hispanic,Retired,High School,Indiana,Kamala Harris
+32,Male,Other,Part-time,High School,Georgia,Kamala Harris
+55,Female,Other,Retired,Other,Texas,Kamala Harris
+71,Male,Black,Full-time,Bachelor,Wisconsin,Kamala Harris
+46,Female,Hispanic,Full-time,High School,Florida,Donald Trump
+41,Non-binary,Hispanic,Part-time,Master,Idaho,Donald Trump
+49,Female,Black,Full-time,High School,New Jersey,Donald Trump
+51,Male,Black,Part-time,Bachelor,Alabama,Donald Trump
+36,Female,Black,Full-time,College,New York,Donald Trump
+23,Non-binary,White,Full-time,College,Alabama,Kamala Harris
+59,Male,Black,Full-time,High School,Texas,Kamala Harris
+39,Male,White,Full-time,High School,Massachusetts,Donald Trump
+21,Male,Hispanic,Retired,High School,Nevada,Kamala Harris
+39,Female,Black,Part-time,PhD,Iowa,Kamala Harris
+26,Non-binary,Black,Retired,Master,Massachusetts,Kamala Harris
+79,Male,Hispanic,Part-time,College,Wyoming,Kamala Harris
+58,Male,White,Retired,High School,Maryland,Kamala Harris
+48,Female,White,Unemployed,High School,Oregon,Kamala Harris
+71,Female,White,Retired,Master,Mississippi,Kamala Harris
+34,Female,Hispanic,Full-time,High School,Arizona,Kamala Harris
+19,Male,Black,Part-time,College,Arizona,Kamala Harris
+65,Male,White,Part-time,High School,Louisiana,Kamala Harris
+66,Male,Black,Unemployed,High School,Oklahoma,Donald Trump
+47,Female,White,Full-time,Master,Connecticut,Kamala Harris
+49,Male,White,Retired,High School,North Dakota,Donald Trump
+31,Male,Hispanic,Full-time,College,Montana,Kamala Harris
+52,Female,Black,Retired,College,Missouri,Donald Trump
+29,Male,Black,Retired,High School,California,Donald Trump
+43,Non-binary,Black,Part-time,Bachelor,Washington,Kamala Harris
+41,Female,Hispanic,Full-time,Bachelor,Florida,Kamala Harris
+23,Female,Black,Retired,College,Idaho,Donald Trump
+80,Female,Black,Full-time,High School,Pennsylvania,Donald Trump
+31,Female,White,Full-time,Bachelor,Alabama,Kamala Harris
+33,Female,White,Retired,Bachelor,Alabama,Donald Trump
+60,Male,Black,Full-time,College,North Dakota,Donald Trump
+70,Female,Black,Full-time,High School,North Dakota,Donald Trump
+44,Male,Hispanic,Full-time,High School,Kentucky,Donald Trump
+63,Female,White,Full-time,High School,Delaware,Kamala Harris
+52,Female,Asian,Part-time,Master,West Virginia,Donald Trump
+42,Female,Other,Retired,High School,Illinois,Donald Trump
+68,Female,Hispanic,Unemployed,PhD,Missouri,Kamala Harris
+77,Female,Asian,Full-time,College,Washington,Kamala Harris
+24,Female,Black,Part-time,College,Michigan,Kamala Harris
+48,Male,Asian,Retired,College,Nebraska,Donald Trump
+71,Male,Hispanic,Full-time,Bachelor,Vermont,Kamala Harris
+48,Male,Black,Full-time,Other,Vermont,Donald Trump
+73,Male,Other,Retired,Bachelor,New Jersey,Kamala Harris
+66,Female,White,Retired,Other,Wyoming,Donald Trump
+51,Female,White,Full-time,College,Virginia,Kamala Harris
+49,Male,Black,Part-time,High School,Vermont,Kamala Harris
+80,Female,Black,Part-time,Bachelor,Oregon,Donald Trump
+70,Female,Black,Unemployed,Other,Maryland,Kamala Harris
+63,Female,Black,Part-time,High School,Nebraska,Kamala Harris
+77,Female,White,Full-time,Master,Illinois,Kamala Harris
+51,Male,Hispanic,Full-time,High School,Arkansas,Kamala Harris
+43,Female,White,Full-time,Other,Colorado,Donald Trump
+36,Female,White,Part-time,Master,New Jersey,Kamala Harris
+28,Male,Black,Full-time,College,Missouri,Donald Trump
+31,Non-binary,Black,Full-time,High School,Maryland,Donald Trump
+35,Female,Hispanic,Full-time,High School,Alaska,Kamala Harris
+37,Male,White,Full-time,Bachelor,Delaware,Kamala Harris
+70,Female,Asian,Full-time,High School,Massachusetts,Donald Trump
+36,Male,White,Unemployed,High School,Massachusetts,Kamala Harris
+24,Female,Hispanic,Full-time,Other,Virginia,Donald Trump
+55,Male,White,Full-time,High School,Hawaii,Kamala Harris
+69,Male,White,Part-time,High School,Pennsylvania,Kamala Harris
+36,Male,White,Part-time,Other,Mississippi,Kamala Harris
+19,Male,Black,Unemployed,Bachelor,West Virginia,Donald Trump
+79,Female,Black,Unemployed,College,Iowa,Donald Trump
+49,Female,White,Part-time,Bachelor,Oregon,Donald Trump
+60,Male,Black,Full-time,College,Delaware,Kamala Harris
+44,Non-binary,Hispanic,Full-time,High School,Washington,Donald Trump
+56,Female,Asian,Unemployed,High School,Minnesota,Donald Trump
+21,Female,Black,Retired,Bachelor,Vermont,Donald Trump
+37,Male,Black,Full-time,High School,Massachusetts,Donald Trump
+29,Female,Black,Retired,Master,New Mexico,Donald Trump
+25,Female,Hispanic,Unemployed,High School,Louisiana,Donald Trump
+54,Male,White,Full-time,College,Minnesota,Donald Trump
+18,Female,Black,Retired,College,California,Donald Trump
+79,Non-binary,Hispanic,Full-time,Other,Virginia,Kamala Harris
+23,Male,Black,Unemployed,Other,Connecticut,Kamala Harris
+53,Male,Hispanic,Full-time,College,Louisiana,Kamala Harris
+29,Male,Other,Part-time,Master,Alabama,Kamala Harris
+36,Male,Asian,Unemployed,College,Colorado,Donald Trump
+24,Non-binary,White,Full-time,Other,Washington,Donald Trump
+52,Male,Black,Unemployed,College,Arizona,Donald Trump
+54,Male,Hispanic,Full-time,High School,New Jersey,Kamala Harris
+79,Female,Hispanic,Full-time,High School,Hawaii,Donald Trump
+70,Female,Asian,Full-time,College,Wisconsin,Donald Trump
+79,Non-binary,Hispanic,Retired,Other,West Virginia,Kamala Harris
+50,Female,Hispanic,Full-time,College,Oregon,Donald Trump
+46,Female,Asian,Full-time,High School,New Hampshire,Donald Trump
+37,Female,White,Full-time,College,Colorado,Donald Trump
+58,Female,Asian,Full-time,High School,North Carolina,Donald Trump
+37,Male,White,Retired,College,Illinois,Donald Trump
+41,Female,White,Retired,Other,Wisconsin,Kamala Harris
+55,Male,White,Full-time,High School,Arizona,Donald Trump
+69,Female,Black,Full-time,Bachelor,West Virginia,Kamala Harris
+63,Female,Black,Full-time,High School,Louisiana,Kamala Harris
+64,Female,Black,Unemployed,Other,North Carolina,Donald Trump
+42,Male,Hispanic,Full-time,PhD,Kentucky,Donald Trump
+64,Female,Hispanic,Unemployed,High School,Massachusetts,Kamala Harris
+36,Non-binary,White,Unemployed,Bachelor,Arkansas,Kamala Harris
+48,Male,Other,Part-time,College,North Dakota,Kamala Harris
+45,Male,Black,Full-time,PhD,Kansas,Kamala Harris
+41,Female,Asian,Full-time,Other,Wisconsin,Donald Trump
+29,Female,Other,Part-time,High School,Washington,Kamala Harris
+75,Male,Black,Full-time,Bachelor,New Hampshire,Kamala Harris
+18,Female,White,Part-time,College,Idaho,Kamala Harris
+68,Male,White,Full-time,College,Texas,Kamala Harris
+48,Female,Other,Full-time,Bachelor,West Virginia,Donald Trump
+55,Female,White,Full-time,High School,South Dakota,Donald Trump
+55,Non-binary,Black,Full-time,High School,California,Kamala Harris
+42,Female,White,Retired,College,Maryland,Kamala Harris
+76,Female,Asian,Full-time,Master,Oregon,Donald Trump
+62,Non-binary,White,Retired,College,Alaska,Donald Trump
+63,Male,Black,Retired,College,Arizona,Donald Trump
+79,Male,Hispanic,Full-time,Bachelor,South Dakota,Donald Trump
+21,Male,Hispanic,Retired,College,Vermont,Donald Trump
+40,Female,White,Full-time,PhD,Kentucky,Kamala Harris
+34,Male,White,Full-time,College,Arkansas,Kamala Harris
+60,Male,White,Part-time,High School,Minnesota,Kamala Harris
+75,Non-binary,Other,Retired,College,Alaska,Kamala Harris
+52,Male,Asian,Full-time,College,Idaho,Kamala Harris
+32,Female,Hispanic,Part-time,Master,Connecticut,Kamala Harris
+44,Male,White,Part-time,Other,Indiana,Donald Trump
+58,Male,Black,Full-time,Bachelor,Colorado,Kamala Harris
+56,Female,White,Part-time,College,Connecticut,Donald Trump
+64,Male,Hispanic,Full-time,High School,Arkansas,Donald Trump
+61,Female,Black,Retired,College,Nebraska,Kamala Harris
+49,Male,Asian,Full-time,High School,Vermont,Kamala Harris
+69,Female,Hispanic,Unemployed,High School,New Mexico,Kamala Harris
+51,Female,Black,Part-time,Bachelor,New Jersey,Donald Trump
+40,Male,Asian,Full-time,High School,Mississippi,Donald Trump
+57,Female,White,Retired,Master,Louisiana,Kamala Harris
+34,Female,Other,Full-time,High School,West Virginia,Kamala Harris
+53,Male,Black,Full-time,College,Illinois,Kamala Harris
+43,Male,White,Full-time,High School,Georgia,Kamala Harris
+27,Female,White,Full-time,College,South Carolina,Kamala Harris
+20,Non-binary,White,Part-time,High School,Minnesota,Kamala Harris
+60,Female,Asian,Retired,PhD,West Virginia,Kamala Harris
+65,Female,Black,Retired,College,California,Kamala Harris
+71,Male,Other,Retired,College,Utah,Kamala Harris
+61,Male,Other,Full-time,High School,Florida,Donald Trump
+22,Female,Asian,Part-time,High School,Connecticut,Donald Trump
+34,Female,Black,Full-time,High School,Maryland,Kamala Harris
+54,Female,Other,Part-time,PhD,Rhode Island,Kamala Harris
+39,Non-binary,Asian,Unemployed,Other,Alabama,Kamala Harris
+47,Female,Other,Part-time,College,Hawaii,Donald Trump
+32,Non-binary,Hispanic,Full-time,High School,Oregon,Donald Trump
+32,Female,White,Full-time,College,Iowa,Kamala Harris
+32,Female,Black,Full-time,College,Kentucky,Donald Trump
+47,Female,White,Part-time,High School,Wyoming,Donald Trump
+77,Male,Hispanic,Full-time,Other,Massachusetts,Donald Trump
+59,Female,Black,Full-time,College,Illinois,Kamala Harris
+27,Female,White,Full-time,Bachelor,Oregon,Donald Trump
+24,Male,Hispanic,Unemployed,Other,Oregon,Donald Trump
+69,Male,Hispanic,Full-time,Other,Tennessee,Donald Trump
+54,Male,Hispanic,Part-time,High School,Minnesota,Kamala Harris
+74,Non-binary,Black,Full-time,High School,Georgia,Donald Trump
+20,Female,White,Full-time,College,Montana,Donald Trump
+38,Male,Asian,Retired,College,Arizona,Donald Trump
+55,Female,Black,Retired,College,Arkansas,Donald Trump
+74,Female,Asian,Unemployed,High School,Illinois,Donald Trump
+34,Female,Black,Retired,High School,Oklahoma,Donald Trump
+19,Female,Other,Full-time,PhD,Wisconsin,Kamala Harris
+42,Female,White,Full-time,Bachelor,Idaho,Donald Trump
+40,Male,Black,Part-time,High School,Oregon,Donald Trump
+42,Female,Black,Full-time,High School,Arkansas,Kamala Harris
+37,Female,White,Part-time,Bachelor,Wyoming,Kamala Harris
+36,Non-binary,Other,Full-time,Bachelor,Montana,Kamala Harris
+62,Non-binary,White,Part-time,High School,Minnesota,Donald Trump
+36,Female,Black,Full-time,High School,Oklahoma,Kamala Harris
+33,Female,Hispanic,Part-time,Other,New Mexico,Kamala Harris
+36,Male,Black,Full-time,Other,Mississippi,Donald Trump
+79,Female,Black,Full-time,Master,Texas,Donald Trump
+51,Male,White,Full-time,High School,South Carolina,Donald Trump
+80,Male,Black,Unemployed,College,Kentucky,Donald Trump
+25,Non-binary,Other,Full-time,College,Oklahoma,Donald Trump
+53,Female,Asian,Part-time,Master,Ohio,Donald Trump
+23,Non-binary,Hispanic,Full-time,High School,North Carolina,Donald Trump
+31,Non-binary,Black,Full-time,Bachelor,Delaware,Kamala Harris
+57,Male,Hispanic,Unemployed,College,Wisconsin,Donald Trump
+48,Female,Black,Part-time,High School,Washington,Kamala Harris
+62,Male,Black,Retired,College,Massachusetts,Kamala Harris
+42,Female,Other,Full-time,Other,Michigan,Donald Trump
+26,Male,Black,Full-time,College,New York,Donald Trump
+60,Male,White,Full-time,Master,Virginia,Kamala Harris
+75,Female,Black,Full-time,Bachelor,Connecticut,Kamala Harris
+54,Female,White,Full-time,High School,Nevada,Donald Trump
+75,Male,White,Full-time,High School,North Carolina,Kamala Harris
+69,Male,Black,Unemployed,High School,Pennsylvania,Donald Trump
+21,Male,Black,Unemployed,High School,Florida,Kamala Harris
+38,Female,Black,Retired,College,Georgia,Kamala Harris
+70,Male,White,Retired,High School,Missouri,Kamala Harris
+39,Female,White,Full-time,High School,Texas,Donald Trump
+77,Female,Black,Full-time,Bachelor,Pennsylvania,Kamala Harris
+58,Male,White,Full-time,Bachelor,North Carolina,Kamala Harris
+33,Female,Black,Full-time,High School,Virginia,Donald Trump
+29,Female,White,Part-time,Bachelor,Mississippi,Kamala Harris
+61,Male,Black,Full-time,Other,Idaho,Kamala Harris
+40,Female,White,Part-time,Bachelor,Virginia,Kamala Harris
+68,Non-binary,White,Full-time,College,Mississippi,Donald Trump
+34,Male,White,Retired,Bachelor,Rhode Island,Donald Trump
+66,Non-binary,Black,Full-time,Other,Florida,Donald Trump
+60,Non-binary,Hispanic,Full-time,High School,Kansas,Kamala Harris
+69,Male,Black,Full-time,Bachelor,Kentucky,Donald Trump
+77,Male,White,Full-time,High School,California,Donald Trump
+42,Female,Black,Retired,High School,Connecticut,Kamala Harris
+30,Male,Asian,Full-time,College,Minnesota,Kamala Harris
+72,Female,White,Part-time,High School,Utah,Donald Trump
+59,Female,Hispanic,Part-time,Other,New Hampshire,Kamala Harris
+70,Female,White,Full-time,High School,Illinois,Kamala Harris
+52,Female,White,Unemployed,High School,Alaska,Kamala Harris
+77,Female,White,Full-time,High School,North Dakota,Donald Trump
+70,Male,Black,Unemployed,Master,Pennsylvania,Kamala Harris
+22,Female,Asian,Full-time,PhD,Wyoming,Kamala Harris
+62,Male,Black,Full-time,College,Iowa,Donald Trump
+20,Male,White,Full-time,High School,Alabama,Donald Trump
+54,Male,White,Unemployed,Other,Indiana,Kamala Harris
+23,Male,Hispanic,Full-time,High School,South Dakota,Kamala Harris
+44,Non-binary,Hispanic,Unemployed,High School,Michigan,Donald Trump
+60,Female,Asian,Full-time,Master,South Dakota,Donald Trump
+56,Male,Hispanic,Retired,PhD,Nevada,Donald Trump
+66,Male,Black,Retired,Bachelor,Massachusetts,Donald Trump
+57,Male,White,Full-time,High School,Maryland,Donald Trump
+73,Male,White,Full-time,PhD,North Dakota,Donald Trump
+31,Male,Other,Part-time,High School,Virginia,Donald Trump
+57,Male,White,Full-time,High School,Nevada,Kamala Harris
+72,Female,Asian,Retired,High School,California,Kamala Harris
+73,Non-binary,Black,Retired,Master,Michigan,Kamala Harris
+60,Male,Black,Full-time,Master,Georgia,Donald Trump
+25,Female,Asian,Unemployed,High School,Nebraska,Kamala Harris
+39,Male,Black,Full-time,High School,North Carolina,Kamala Harris
+69,Female,Hispanic,Retired,High School,North Dakota,Donald Trump
+19,Female,White,Part-time,Bachelor,Ohio,Donald Trump
+40,Female,White,Full-time,High School,Wyoming,Donald Trump
+40,Female,Hispanic,Full-time,High School,Illinois,Donald Trump
+41,Male,Asian,Retired,College,Ohio,Kamala Harris
+71,Female,White,Full-time,High School,Kansas,Donald Trump
+31,Non-binary,Other,Retired,High School,South Carolina,Kamala Harris
+33,Male,Other,Full-time,High School,Alabama,Donald Trump
+52,Male,Black,Full-time,Bachelor,Connecticut,Kamala Harris
+40,Male,Black,Retired,High School,Arkansas,Kamala Harris
+58,Female,White,Unemployed,Master,Tennessee,Kamala Harris
+78,Female,White,Retired,Master,Mississippi,Kamala Harris
+19,Female,Black,Full-time,High School,Missouri,Donald Trump
+63,Female,White,Part-time,Master,Oregon,Donald Trump
+48,Male,Hispanic,Full-time,High School,Alaska,Donald Trump
+25,Male,Black,Retired,High School,North Carolina,Kamala Harris
+29,Male,White,Full-time,PhD,Missouri,Kamala Harris
+73,Female,White,Full-time,High School,Wisconsin,Kamala Harris
+79,Female,White,Full-time,Other,Ohio,Donald Trump
+50,Female,Black,Retired,College,North Carolina,Kamala Harris
+61,Male,Hispanic,Full-time,College,Vermont,Kamala Harris
+24,Non-binary,Black,Unemployed,High School,Illinois,Kamala Harris
+26,Female,White,Full-time,Master,Utah,Donald Trump
+61,Male,Hispanic,Retired,College,West Virginia,Kamala Harris
+57,Female,Asian,Part-time,High School,South Carolina,Kamala Harris
+68,Male,White,Full-time,College,New Jersey,Donald Trump
+59,Female,Asian,Retired,High School,Maryland,Kamala Harris
+59,Female,Black,Retired,High School,Minnesota,Kamala Harris
+73,Male,Hispanic,Full-time,Other,Missouri,Donald Trump
+18,Female,Hispanic,Full-time,Bachelor,Delaware,Kamala Harris
+34,Non-binary,Black,Full-time,College,Louisiana,Donald Trump
+39,Non-binary,Black,Unemployed,Bachelor,Minnesota,Donald Trump
+77,Female,Black,Full-time,College,Utah,Kamala Harris
+55,Female,White,Full-time,High School,Indiana,Kamala Harris
+18,Male,Black,Part-time,Bachelor,California,Kamala Harris
+28,Non-binary,Black,Part-time,Other,Ohio,Kamala Harris
+36,Female,Hispanic,Retired,High School,Virginia,Donald Trump
+29,Male,Hispanic,Part-time,College,Alabama,Donald Trump
+32,Male,Hispanic,Part-time,College,New York,Donald Trump
+19,Male,White,Unemployed,High School,Michigan,Kamala Harris
+77,Female,White,Retired,PhD,West Virginia,Kamala Harris
+65,Female,Other,Retired,High School,Arizona,Kamala Harris
+58,Male,White,Full-time,Other,Washington,Donald Trump
+77,Non-binary,Black,Full-time,Bachelor,Washington,Kamala Harris
+39,Male,Black,Full-time,Other,Oklahoma,Donald Trump
+71,Female,Hispanic,Retired,High School,Alabama,Kamala Harris
+25,Male,White,Full-time,College,Idaho,Donald Trump
+35,Female,Asian,Part-time,College,Oregon,Donald Trump
+64,Male,White,Full-time,High School,Montana,Donald Trump
+43,Male,Black,Retired,Bachelor,North Carolina,Donald Trump
+70,Male,Hispanic,Full-time,High School,Ohio,Kamala Harris
+62,Female,Black,Unemployed,High School,Oklahoma,Donald Trump
+30,Female,White,Part-time,High School,Alaska,Donald Trump
+57,Female,Black,Full-time,High School,Georgia,Kamala Harris
+51,Non-binary,Black,Full-time,Master,North Dakota,Kamala Harris
+56,Male,Black,Part-time,College,New Mexico,Kamala Harris
+39,Male,Asian,Full-time,High School,Wyoming,Kamala Harris
+58,Male,Black,Full-time,High School,New Mexico,Donald Trump
+55,Non-binary,Hispanic,Part-time,High School,Arizona,Kamala Harris
+53,Male,Hispanic,Full-time,College,Wisconsin,Donald Trump
+43,Non-binary,White,Full-time,High School,West Virginia,Kamala Harris
+76,Male,Other,Retired,High School,Minnesota,Kamala Harris
+28,Female,White,Unemployed,High School,New York,Kamala Harris
+24,Female,Other,Part-time,High School,Tennessee,Donald Trump
+63,Female,Other,Retired,High School,Colorado,Donald Trump
+25,Female,Black,Full-time,High School,Kansas,Donald Trump
+23,Female,Hispanic,Full-time,Bachelor,New Mexico,Kamala Harris
+76,Male,White,Part-time,PhD,Tennessee,Kamala Harris
+22,Female,Hispanic,Full-time,High School,Iowa,Donald Trump
+49,Male,White,Full-time,College,South Carolina,Donald Trump
+39,Male,White,Retired,Bachelor,Arizona,Kamala Harris
+65,Female,White,Full-time,High School,Michigan,Kamala Harris
+74,Male,Hispanic,Retired,College,Alaska,Kamala Harris
+80,Female,Hispanic,Retired,Other,Arizona,Donald Trump
+40,Female,Black,Full-time,College,West Virginia,Kamala Harris
+69,Female,Black,Full-time,Master,Indiana,Donald Trump
+30,Female,Asian,Retired,High School,Maryland,Donald Trump
+76,Female,White,Retired,College,Ohio,Donald Trump
+46,Male,Hispanic,Unemployed,Other,Wisconsin,Kamala Harris
+31,Female,Hispanic,Full-time,Other,Ohio,Donald Trump
+74,Male,Asian,Part-time,High School,Nebraska,Donald Trump
+43,Male,Black,Full-time,Other,North Dakota,Kamala Harris
+42,Male,Asian,Full-time,Bachelor,Indiana,Donald Trump
+56,Female,Hispanic,Unemployed,Bachelor,Rhode Island,Kamala Harris
+50,Male,Black,Full-time,College,Colorado,Kamala Harris
+50,Male,Asian,Retired,High School,Arizona,Donald Trump
+47,Male,Hispanic,Unemployed,College,Indiana,Donald Trump
+32,Non-binary,White,Part-time,College,Illinois,Kamala Harris
+54,Female,Other,Full-time,High School,Alaska,Kamala Harris
+67,Male,White,Unemployed,Bachelor,Oregon,Kamala Harris
+49,Non-binary,Hispanic,Full-time,Bachelor,Nevada,Kamala Harris
+73,Female,Black,Unemployed,High School,Florida,Kamala Harris
+45,Female,Black,Full-time,High School,North Dakota,Donald Trump
+76,Male,Asian,Part-time,College,Alabama,Kamala Harris
+43,Female,Black,Retired,High School,Maryland,Donald Trump
+62,Non-binary,White,Part-time,High School,Maine,Donald Trump
+67,Male,Black,Part-time,PhD,Utah,Donald Trump
+67,Male,Black,Part-time,Master,Rhode Island,Donald Trump
+76,Non-binary,Black,Part-time,Bachelor,South Carolina,Donald Trump
+79,Female,Hispanic,Retired,High School,New Mexico,Donald Trump
+50,Male,Black,Retired,High School,Minnesota,Donald Trump
+25,Male,Asian,Full-time,High School,Minnesota,Kamala Harris
+62,Female,Hispanic,Full-time,College,Oklahoma,Kamala Harris
+33,Male,White,Full-time,Bachelor,Oregon,Kamala Harris
+22,Male,White,Full-time,High School,Nebraska,Donald Trump
+60,Male,Hispanic,Full-time,Master,Virginia,Donald Trump
+67,Female,Hispanic,Full-time,College,Oregon,Kamala Harris
+68,Male,White,Unemployed,PhD,Wyoming,Kamala Harris
+24,Female,Black,Retired,College,Indiana,Kamala Harris
+73,Non-binary,White,Full-time,High School,Connecticut,Donald Trump
+46,Male,Black,Full-time,High School,Colorado,Donald Trump
+62,Male,Other,Retired,Other,South Dakota,Donald Trump
+64,Male,Black,Retired,High School,Massachusetts,Donald Trump
+62,Female,Black,Retired,Other,Michigan,Kamala Harris
