@@ -25,16 +25,12 @@ cleaned_data <-
                             employ == "Permanently disabled" |
                             employ == "Temporarily laid off",
                           "Unemployed", employ)) |>
-  mutate(education = if_else(education == "High school graduate",
-                             "High School", education)) |>
-  mutate(education = if_else(education == "Some college",
-                             "College", education)) |>
-  mutate(education = if_else(education == "2-year" | education == "4-year",
-                             "Bachelor", education)) |>
-  mutate(education = if_else(education == "Post-grad",
-                             "Master or PhD", education)) |>
-  mutate(education = if_else(education == "No HS",
-                             "Other", education)) |>
+  mutate(education = case_when(
+    education == "High school graduate" ~ "High School",
+    education == "Some college" ~ "College",
+    education == "2-year" | education == "4-year" ~ "Bachelor",
+    education == "Post-grad" ~ "Master or PhD",
+    education == "No HS" ~ "Other")) |>
   mutate(vote = if_else(vote == "Not sure" |
                           vote == "Not going to vote/wouldn't vote if those were the choices" |
                           vote == "Another candidate", "Other", vote)) |>
