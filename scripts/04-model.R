@@ -35,7 +35,6 @@ model <-
     prior_intercept = normal(0, 5),
     seed = 24
   )
-summary(model)
 
 
 #### Save model ####
