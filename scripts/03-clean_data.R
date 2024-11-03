@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Cleans the raw survey data recorded by America's Political Pulse
+# Purpose: Cleans the raw survey data recorded by America's Political Pulse.
 # Author: Yanzun Jiang
 # Date: 2 November 2024
 # Contact: yanzun.jiang@mail.utoronto.ca
@@ -15,30 +15,30 @@ raw_data <- read_csv("data/01-raw_data/raw_data.csv")
 
 cleaned_data <-
   raw_data |>
-  select() |>
-  janitor::clean_names() |>
-  select(wing_width_mm, wing_length_mm, flying_time_sec_first_timer) |>
-  filter(wing_width_mm != "caw") |>
-  mutate(
-    flying_time_sec_first_timer = if_else(flying_time_sec_first_timer == "1,35",
-                                   "1.35",
-                                   flying_time_sec_first_timer)
-  ) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "490",
-                                 "49",
-                                 wing_width_mm)) |>
-  mutate(wing_width_mm = if_else(wing_width_mm == "6",
-                                 "60",
-                                 wing_width_mm)) |>
-  mutate(
-    wing_width_mm = as.numeric(wing_width_mm),
-    wing_length_mm = as.numeric(wing_length_mm),
-    flying_time_sec_first_timer = as.numeric(flying_time_sec_first_timer)
-  ) |>
-  rename(flying_time = flying_time_sec_first_timer,
-         width = wing_width_mm,
-         length = wing_length_mm
-         ) |> 
+  select(birthyr, gender, race, employ, educ, inputstate, matchup2024) |>
+  rename(education = educ, state = inputstate, vote = matchup2024) |> 
+  mutate(age = 2024 - birthyr) |>
+  mutate(race = if_else(race == "Native American" | race == "Middle Eastern" |
+                          race == "Two or more races", "Other", race)) |>
+  mutate(employ = if_else(employ == "Homemaker" | employ == "Student" |
+                            employ == "Other" |
+                            employ == "Permanently disabled" |
+                            employ == "Temporarily laid off",
+                          "Unemployed", employ)) |>
+  mutate(education = if_else(education == "High school graduate",
+                             "High School", education)) |>
+  mutate(education = if_else(education == "Some college",
+                             "College", education)) |>
+  mutate(education = if_else(education == "2-year" | education == "4-year",
+                             "Bachelor", education)) |>
+  mutate(education = if_else(education == "Post-grad",
+                             "Master or PhD", education)) |>
+  mutate(education = if_else(education == "No HS",
+                             "Other", education)) |>
+  mutate(vote = if_else(vote == "Not sure" |
+                          vote == "Not going to vote/wouldn't vote if those were the choices" |
+                          vote == "Another candidate", "Other", vote)) |>
+  select(-birthyr) |>
   tidyr::drop_na()
 
 #### Save data ####

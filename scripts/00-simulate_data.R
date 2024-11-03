@@ -24,6 +24,7 @@ states <- c(
   "Colorado",
   "Connecticut",
   "Delaware",
+  "District of Columbia",
   "Florida",
   "Georgia",
   "Hawaii",
@@ -80,11 +81,12 @@ simulated_data <- tibble(
   employ = sample(c("Full-time", "Part-time", "Unemployed", "Retired"),
                   size = n, replace = TRUE, prob = c(0.5, 0.2, 0.1, 0.2)),
   education = sample(c("High School", "College", "Bachelor",
-                       "Master", "PhD", "Other"),
+                       "Master or PhD", "Other"),
                      size = n, replace = TRUE,
-                     prob = c(0.4, 0.2, 0.15, 0.1, 0.05, 0.1)),
+                     prob = c(0.4, 0.2, 0.2, 0.1, 0.1)),
   state = sample(states, size = n, replace = TRUE),
-  vote = sample(c("Donald Trump", "Kamala Harris"), size = n, replace = TRUE)
+  vote = sample(c("Donald Trump", "Kamala Harris", "Other"),
+                size = n, replace = TRUE, prob = c(0.45, 0.45, 0.1))
 )
 
 

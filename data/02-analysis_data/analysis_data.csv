@@ -1,20 +1,1001 @@
-width,length,flying_time
-70,111,1.83
-57,127,2.32
-59,92,2.05
-70,75,1.1
-62,112,2.32
-68,103.5,0.5
-58,108,1.7
-79,114,0.86
-56,186,3.42
-87,68,1.37
-50,118,2.68
-49,186,1.83
-61,116,1.32
-60,127,1
-56,184,2.79
-69,124,1.4
-60,95,1.12
-44,137,1.28
-63,125,1.35
+gender,race,employ,education,state,vote,age
+Male,Black,Part-time,Bachelor,Maryland,Kamala Harris,22
+Female,White,Full-time,High School,Texas,Donald Trump,66
+Female,White,Retired,College,Montana,Donald Trump,70
+Female,Other,Retired,College,Michigan,Donald Trump,70
+Male,White,Retired,High School,Colorado,Donald Trump,69
+Female,Asian,Full-time,Master or PhD,Pennsylvania,Kamala Harris,52
+Female,White,Unemployed,College,Alabama,Kamala Harris,46
+Male,Hispanic,Retired,Bachelor,Florida,Donald Trump,70
+Female,White,Part-time,Master or PhD,Connecticut,Kamala Harris,60
+Male,Black,Part-time,College,Pennsylvania,Kamala Harris,64
+Female,Black,Unemployed,College,Massachusetts,Other,21
+Male,White,Full-time,Bachelor,Illinois,Kamala Harris,24
+Female,Hispanic,Retired,Bachelor,Texas,Kamala Harris,64
+Female,White,Retired,Bachelor,North Carolina,Kamala Harris,71
+Male,White,Full-time,Other,Oregon,Kamala Harris,32
+Female,White,Unemployed,College,Nevada,Kamala Harris,56
+Male,White,Full-time,Bachelor,California,Kamala Harris,60
+Female,White,Retired,Bachelor,Montana,Donald Trump,70
+Female,White,Unemployed,Master or PhD,Illinois,Donald Trump,36
+Male,White,Retired,Bachelor,Pennsylvania,Kamala Harris,69
+Male,White,Retired,College,Pennsylvania,Kamala Harris,94
+Female,White,Full-time,Bachelor,New York,Kamala Harris,59
+Female,White,Retired,College,Oregon,Kamala Harris,65
+Female,White,Unemployed,College,Texas,Donald Trump,56
+Female,White,Unemployed,High School,Iowa,Donald Trump,35
+Female,White,Part-time,Other,Wisconsin,Donald Trump,41
+Male,Black,Retired,High School,Georgia,Other,62
+Female,Black,Unemployed,Other,Michigan,Kamala Harris,34
+Male,Other,Full-time,High School,Texas,Donald Trump,65
+Female,White,Full-time,Bachelor,Ohio,Kamala Harris,38
+Female,White,Unemployed,High School,Louisiana,Kamala Harris,42
+Female,Hispanic,Retired,High School,Florida,Kamala Harris,63
+Male,White,Part-time,High School,Texas,Other,38
+Male,Asian,Retired,Other,California,Kamala Harris,78
+Male,White,Unemployed,College,Washington,Kamala Harris,20
+Female,White,Full-time,College,New York,Kamala Harris,24
+Male,White,Full-time,Master or PhD,North Carolina,Donald Trump,50
+Male,White,Full-time,High School,Illinois,Donald Trump,48
+Female,White,Unemployed,Bachelor,Maryland,Donald Trump,55
+Male,White,Part-time,College,Alabama,Donald Trump,58
+Female,White,Retired,High School,Montana,Other,75
+Male,White,Full-time,Master or PhD,Pennsylvania,Other,64
+Female,White,Unemployed,High School,Virginia,Donald Trump,66
+Male,White,Full-time,Master or PhD,North Carolina,Donald Trump,66
+Male,White,Part-time,Bachelor,California,Kamala Harris,31
+Male,White,Full-time,Master or PhD,Virginia,Kamala Harris,29
+Female,White,Retired,High School,Indiana,Donald Trump,69
+Female,White,Full-time,Bachelor,South Carolina,Donald Trump,63
+Male,White,Unemployed,College,North Carolina,Other,54
+Male,Hispanic,Unemployed,Master or PhD,California,Kamala Harris,45
+Female,White,Full-time,Bachelor,Minnesota,Kamala Harris,33
+Male,White,Retired,Bachelor,Ohio,Donald Trump,68
+Male,White,Part-time,Master or PhD,Colorado,Donald Trump,56
+Male,White,Full-time,Bachelor,New Jersey,Donald Trump,61
+Male,White,Full-time,Bachelor,Pennsylvania,Donald Trump,56
+Male,Other,Full-time,Bachelor,California,Other,36
+Female,White,Full-time,College,Oklahoma,Kamala Harris,55
+Female,White,Full-time,Bachelor,Hawaii,Kamala Harris,35
+Male,White,Full-time,Bachelor,Ohio,Donald Trump,52
+Male,White,Full-time,College,West Virginia,Donald Trump,40
+Male,White,Unemployed,Master or PhD,Pennsylvania,Donald Trump,54
+Female,White,Full-time,Master or PhD,New York,Donald Trump,55
+Male,White,Full-time,Bachelor,New Jersey,Kamala Harris,29
+Female,White,Unemployed,High School,Ohio,Donald Trump,57
+Male,White,Part-time,College,North Carolina,Kamala Harris,35
+Female,White,Full-time,High School,North Carolina,Kamala Harris,60
+Male,White,Full-time,Master or PhD,Texas,Donald Trump,68
+Male,Asian,Full-time,Bachelor,California,Donald Trump,53
+Male,Hispanic,Full-time,Master or PhD,Texas,Donald Trump,56
+Female,White,Part-time,College,Missouri,Donald Trump,72
+Female,Black,Full-time,Master or PhD,Virginia,Kamala Harris,43
+Male,White,Retired,Bachelor,Nevada,Donald Trump,63
+Male,Black,Retired,Bachelor,Mississippi,Kamala Harris,71
+Male,White,Full-time,Bachelor,Georgia,Other,44
+Male,White,Retired,Master or PhD,Florida,Kamala Harris,78
+Male,White,Full-time,Bachelor,California,Kamala Harris,27
+Female,White,Unemployed,College,South Dakota,Donald Trump,54
+Male,White,Full-time,College,Texas,Donald Trump,66
+Female,Black,Full-time,Bachelor,Washington,Donald Trump,39
+Male,White,Part-time,Master or PhD,Oregon,Kamala Harris,40
+Male,White,Retired,Other,Arizona,Donald Trump,82
+Male,White,Full-time,Master or PhD,Arizona,Donald Trump,60
+Female,White,Retired,High School,Arizona,Donald Trump,58
+Male,White,Full-time,College,North Carolina,Donald Trump,56
+Male,White,Full-time,Bachelor,Tennessee,Kamala Harris,61
+Female,Other,Full-time,College,Arizona,Kamala Harris,36
+Female,White,Retired,Bachelor,Florida,Donald Trump,65
+Female,White,Full-time,Master or PhD,Iowa,Kamala Harris,40
+Male,Black,Part-time,College,Nevada,Other,24
+Female,White,Unemployed,Other,Tennessee,Donald Trump,46
+Male,White,Full-time,Bachelor,Washington,Donald Trump,78
+Male,White,Retired,Bachelor,Alabama,Donald Trump,71
+Male,White,Unemployed,College,California,Donald Trump,63
+Male,White,Full-time,Bachelor,Texas,Donald Trump,65
+Male,White,Full-time,Bachelor,New Jersey,Donald Trump,61
+Male,White,Unemployed,High School,Massachusetts,Other,42
+Female,White,Retired,College,Michigan,Donald Trump,65
+Female,White,Unemployed,Master or PhD,Alabama,Kamala Harris,33
+Female,White,Unemployed,High School,North Carolina,Donald Trump,65
+Female,Black,Unemployed,College,Georgia,Kamala Harris,56
+Female,White,Full-time,Bachelor,Florida,Donald Trump,45
+Male,White,Full-time,High School,New Hampshire,Donald Trump,75
+Female,Other,Full-time,High School,California,Donald Trump,40
+Male,White,Retired,College,Maryland,Donald Trump,72
+Male,White,Retired,High School,Arizona,Donald Trump,67
+Female,White,Unemployed,Bachelor,California,Kamala Harris,45
+Female,White,Part-time,Master or PhD,Wisconsin,Kamala Harris,33
+Male,White,Retired,Master or PhD,Missouri,Donald Trump,78
+Female,Black,Unemployed,High School,Texas,Kamala Harris,58
+Male,White,Full-time,Master or PhD,Pennsylvania,Kamala Harris,38
+Female,White,Retired,College,Washington,Donald Trump,76
+Male,White,Full-time,Master or PhD,Illinois,Kamala Harris,44
+Female,White,Unemployed,Master or PhD,Florida,Donald Trump,59
+Male,White,Unemployed,Bachelor,Indiana,Donald Trump,51
+Male,Black,Retired,College,California,Kamala Harris,73
+Male,White,Retired,Bachelor,Tennessee,Donald Trump,75
+Female,Hispanic,Full-time,Master or PhD,Arizona,Donald Trump,37
+Female,Black,Unemployed,College,California,Donald Trump,43
+Female,White,Full-time,High School,Tennessee,Kamala Harris,29
+Male,White,Full-time,Master or PhD,New York,Kamala Harris,39
+Male,White,Unemployed,College,Colorado,Other,27
+Female,White,Full-time,Master or PhD,Missouri,Donald Trump,51
+Male,White,Part-time,College,California,Donald Trump,72
+Male,Black,Unemployed,High School,Tennessee,Kamala Harris,67
+Male,White,Full-time,Bachelor,Pennsylvania,Kamala Harris,35
+Female,White,Unemployed,Other,Pennsylvania,Kamala Harris,59
+Male,White,Full-time,College,Arkansas,Kamala Harris,34
+Male,White,Full-time,College,Michigan,Donald Trump,53
+Female,White,Full-time,High School,Connecticut,Donald Trump,65
+Male,White,Full-time,High School,Iowa,Donald Trump,62
+Male,White,Retired,College,Oklahoma,Donald Trump,58
+Female,White,Full-time,Bachelor,Florida,Donald Trump,60
+Male,White,Retired,College,South Dakota,Donald Trump,76
+Male,Black,Unemployed,High School,Alabama,Kamala Harris,31
+Male,White,Retired,Bachelor,Georgia,Donald Trump,74
+Female,White,Part-time,College,Florida,Kamala Harris,24
+Female,White,Full-time,Master or PhD,Alabama,Kamala Harris,39
+Male,White,Full-time,Master or PhD,Texas,Kamala Harris,34
+Male,White,Unemployed,Bachelor,Georgia,Donald Trump,61
+Male,White,Full-time,Master or PhD,Arizona,Kamala Harris,38
+Male,Other,Full-time,Bachelor,Iowa,Donald Trump,27
+Female,White,Full-time,Bachelor,Iowa,Kamala Harris,31
+Female,White,Unemployed,Bachelor,Arizona,Donald Trump,58
+Female,White,Full-time,College,Nevada,Donald Trump,54
+Female,White,Full-time,Bachelor,Nebraska,Donald Trump,49
+Male,White,Full-time,Bachelor,New Jersey,Donald Trump,54
+Male,White,Full-time,Bachelor,California,Donald Trump,36
+Female,White,Full-time,College,New Jersey,Donald Trump,24
+Female,White,Part-time,High School,Texas,Kamala Harris,24
+Male,Asian,Unemployed,High School,California,Donald Trump,47
+Male,Other,Unemployed,High School,Pennsylvania,Other,46
+Female,Other,Unemployed,High School,Michigan,Other,53
+Male,White,Unemployed,High School,Missouri,Kamala Harris,26
+Female,Hispanic,Unemployed,Other,New York,Kamala Harris,60
+Female,Black,Part-time,High School,Oregon,Kamala Harris,22
+Male,Black,Part-time,High School,New York,Donald Trump,24
+Female,White,Full-time,Other,Nebraska,Other,33
+Male,Black,Part-time,High School,Virginia,Donald Trump,26
+Male,Asian,Full-time,College,California,Other,43
+Male,White,Unemployed,Other,Michigan,Donald Trump,43
+Male,White,Unemployed,High School,Nebraska,Kamala Harris,50
+Female,Black,Part-time,High School,California,Kamala Harris,27
+Male,Black,Unemployed,College,Ohio,Kamala Harris,23
+Female,White,Retired,Bachelor,Minnesota,Kamala Harris,71
+Female,White,Full-time,Bachelor,Georgia,Kamala Harris,52
+Male,White,Part-time,High School,California,Donald Trump,64
+Female,White,Retired,Bachelor,Missouri,Kamala Harris,76
+Female,White,Full-time,Bachelor,North Carolina,Kamala Harris,48
+Female,Black,Unemployed,High School,Louisiana,Kamala Harris,67
+Female,White,Part-time,Bachelor,Minnesota,Kamala Harris,62
+Male,White,Full-time,High School,Texas,Kamala Harris,36
+Female,White,Full-time,Bachelor,New York,Kamala Harris,64
+Male,Black,Full-time,High School,Alabama,Kamala Harris,42
+Male,White,Full-time,Other,West Virginia,Kamala Harris,46
+Female,Black,Unemployed,Bachelor,Ohio,Kamala Harris,24
+Female,White,Retired,High School,Ohio,Kamala Harris,73
+Female,White,Retired,Bachelor,Delaware,Kamala Harris,70
+Female,White,Full-time,Bachelor,Utah,Kamala Harris,45
+Female,White,Retired,Bachelor,Arizona,Kamala Harris,58
+Female,White,Unemployed,High School,California,Kamala Harris,71
+Female,Hispanic,Unemployed,College,New Jersey,Kamala Harris,44
+Female,White,Part-time,Bachelor,Illinois,Kamala Harris,65
+Female,White,Full-time,High School,Minnesota,Donald Trump,44
+Female,Hispanic,Full-time,College,California,Donald Trump,28
+Female,White,Unemployed,College,Ohio,Donald Trump,65
+Female,White,Retired,Bachelor,Minnesota,Kamala Harris,67
+Male,Hispanic,Unemployed,High School,New York,Donald Trump,28
+Male,White,Part-time,High School,Alabama,Other,47
+Male,Hispanic,Full-time,College,California,Kamala Harris,50
+Female,Black,Part-time,College,Nebraska,Other,59
+Female,Black,Part-time,Bachelor,Texas,Kamala Harris,25
+Female,White,Unemployed,Bachelor,Minnesota,Kamala Harris,56
+Female,Hispanic,Unemployed,High School,Arizona,Kamala Harris,27
+Female,White,Unemployed,Bachelor,Kentucky,Donald Trump,36
+Male,Hispanic,Full-time,Bachelor,Texas,Kamala Harris,26
+Female,Asian,Full-time,Bachelor,Michigan,Kamala Harris,21
+Female,Black,Unemployed,Bachelor,Louisiana,Other,31
+Male,White,Full-time,Bachelor,Colorado,Donald Trump,41
+Female,White,Unemployed,Other,Ohio,Kamala Harris,30
+Male,White,Full-time,High School,Florida,Kamala Harris,57
+Male,Black,Unemployed,Bachelor,Oklahoma,Donald Trump,41
+Female,White,Full-time,Bachelor,New York,Kamala Harris,52
+Male,Hispanic,Full-time,College,California,Kamala Harris,55
+Female,Black,Unemployed,College,Georgia,Other,43
+Female,White,Full-time,College,Florida,Kamala Harris,64
+Female,White,Full-time,Bachelor,Florida,Kamala Harris,46
+Male,Black,Full-time,College,Texas,Kamala Harris,51
+Female,White,Part-time,High School,Illinois,Kamala Harris,54
+Female,White,Full-time,College,Indiana,Donald Trump,58
+Female,Black,Unemployed,High School,New York,Kamala Harris,50
+Male,White,Unemployed,College,Idaho,Kamala Harris,47
+Male,Hispanic,Full-time,College,Louisiana,Kamala Harris,28
+Male,Asian,Full-time,Bachelor,New Jersey,Kamala Harris,38
+Male,Black,Unemployed,High School,South Carolina,Other,42
+Male,Hispanic,Unemployed,College,Texas,Kamala Harris,20
+Male,White,Full-time,High School,Colorado,Kamala Harris,64
+Male,Asian,Unemployed,Bachelor,California,Kamala Harris,21
+Female,White,Retired,College,Wisconsin,Kamala Harris,54
+Female,White,Full-time,Bachelor,Illinois,Kamala Harris,62
+Female,Other,Unemployed,College,Illinois,Kamala Harris,24
+Female,Hispanic,Full-time,Bachelor,Connecticut,Kamala Harris,44
+Female,White,Unemployed,College,Kansas,Other,49
+Female,White,Part-time,High School,Minnesota,Kamala Harris,43
+Female,Hispanic,Full-time,Bachelor,Texas,Other,40
+Female,White,Retired,High School,Wisconsin,Donald Trump,76
+Female,White,Unemployed,High School,Florida,Kamala Harris,32
+Female,Other,Unemployed,High School,Pennsylvania,Donald Trump,35
+Female,Other,Retired,Master or PhD,Oregon,Kamala Harris,69
+Male,White,Part-time,High School,Texas,Donald Trump,25
+Male,Other,Full-time,Master or PhD,North Carolina,Kamala Harris,36
+Female,White,Full-time,High School,Mississippi,Other,22
+Female,White,Unemployed,Other,Florida,Other,42
+Female,White,Full-time,High School,Delaware,Donald Trump,33
+Male,Black,Unemployed,High School,Alabama,Other,37
+Male,Black,Full-time,High School,California,Kamala Harris,40
+Female,White,Unemployed,Bachelor,New York,Kamala Harris,48
+Male,White,Part-time,High School,New Jersey,Donald Trump,37
+Female,White,Unemployed,College,Virginia,Kamala Harris,23
+Male,White,Full-time,High School,Texas,Kamala Harris,29
+Female,White,Unemployed,Other,Nevada,Donald Trump,65
+Male,White,Unemployed,College,Kansas,Kamala Harris,20
+Male,Other,Full-time,Master or PhD,Washington,Donald Trump,38
+Female,Asian,Full-time,Bachelor,Arizona,Kamala Harris,54
+Female,White,Full-time,Master or PhD,Minnesota,Kamala Harris,40
+Male,White,Full-time,Bachelor,California,Donald Trump,58
+Female,White,Retired,College,West Virginia,Donald Trump,67
+Male,White,Full-time,Other,New York,Donald Trump,25
+Male,White,Unemployed,High School,Tennessee,Kamala Harris,44
+Female,White,Full-time,Master or PhD,Illinois,Kamala Harris,39
+Male,White,Full-time,Master or PhD,Texas,Donald Trump,69
+Male,Hispanic,Full-time,Bachelor,California,Kamala Harris,49
+Female,White,Full-time,Master or PhD,Georgia,Kamala Harris,41
+Female,White,Full-time,Bachelor,Illinois,Kamala Harris,37
+Male,Hispanic,Retired,Bachelor,California,Donald Trump,64
+Male,Black,Part-time,High School,Texas,Other,23
+Female,White,Unemployed,High School,Ohio,Kamala Harris,26
+Female,Asian,Unemployed,Bachelor,California,Kamala Harris,30
+Male,Black,Unemployed,High School,Virginia,Donald Trump,60
+Female,Black,Retired,College,California,Kamala Harris,67
+Male,Black,Full-time,High School,Illinois,Kamala Harris,29
+Male,Black,Unemployed,High School,Texas,Donald Trump,26
+Female,Black,Unemployed,College,Texas,Kamala Harris,24
+Male,Hispanic,Full-time,College,California,Donald Trump,57
+Female,Other,Full-time,Bachelor,Georgia,Other,50
+Male,Black,Part-time,College,California,Kamala Harris,21
+Male,Hispanic,Unemployed,College,New York,Kamala Harris,43
+Female,White,Full-time,College,Georgia,Donald Trump,35
+Male,Black,Part-time,Bachelor,Florida,Donald Trump,42
+Female,Hispanic,Retired,College,Arizona,Kamala Harris,62
+Female,Black,Retired,College,California,Kamala Harris,75
+Female,Black,Retired,College,Maryland,Kamala Harris,70
+Female,Hispanic,Unemployed,High School,New York,Kamala Harris,23
+Female,White,Part-time,College,Colorado,Kamala Harris,26
+Female,Black,Retired,Bachelor,Tennessee,Kamala Harris,73
+Male,White,Full-time,Bachelor,Florida,Other,25
+Male,Hispanic,Part-time,High School,Texas,Kamala Harris,47
+Female,White,Unemployed,Bachelor,Montana,Donald Trump,70
+Male,White,Full-time,Master or PhD,New York,Kamala Harris,44
+Male,White,Full-time,Bachelor,Texas,Donald Trump,68
+Male,White,Unemployed,High School,North Carolina,Kamala Harris,46
+Male,White,Full-time,High School,California,Donald Trump,33
+Female,Asian,Full-time,High School,Oregon,Other,37
+Male,White,Full-time,Bachelor,Texas,Other,34
+Female,Other,Full-time,High School,Nebraska,Kamala Harris,51
+Female,White,Retired,Bachelor,Pennsylvania,Donald Trump,74
+Male,Other,Unemployed,High School,Georgia,Donald Trump,42
+Male,White,Retired,High School,Michigan,Donald Trump,71
+Female,White,Retired,Bachelor,Arizona,Donald Trump,76
+Male,White,Unemployed,High School,Illinois,Donald Trump,62
+Female,White,Retired,High School,California,Kamala Harris,73
+Male,Other,Full-time,Master or PhD,Texas,Donald Trump,35
+Female,Other,Unemployed,High School,South Carolina,Donald Trump,60
+Female,Hispanic,Unemployed,Other,California,Donald Trump,42
+Male,White,Part-time,College,Indiana,Kamala Harris,21
+Male,White,Unemployed,Other,Alabama,Donald Trump,60
+Male,White,Full-time,Other,South Carolina,Donald Trump,61
+Female,White,Unemployed,Master or PhD,Virginia,Other,27
+Female,White,Unemployed,High School,Michigan,Kamala Harris,61
+Female,Other,Full-time,College,Oklahoma,Kamala Harris,41
+Male,White,Unemployed,High School,California,Donald Trump,20
+Male,White,Full-time,High School,Indiana,Kamala Harris,56
+Female,White,Part-time,High School,Alabama,Donald Trump,62
+Female,White,Full-time,Master or PhD,Florida,Kamala Harris,44
+Female,White,Full-time,College,Tennessee,Kamala Harris,43
+Male,White,Retired,Bachelor,North Dakota,Donald Trump,67
+Male,White,Full-time,High School,California,Other,34
+Male,White,Full-time,Bachelor,Georgia,Kamala Harris,37
+Male,White,Full-time,High School,Alabama,Donald Trump,59
+Male,White,Unemployed,High School,California,Kamala Harris,24
+Male,White,Full-time,Master or PhD,Arizona,Kamala Harris,45
+Female,White,Retired,High School,New Mexico,Donald Trump,83
+Female,White,Retired,College,Florida,Kamala Harris,82
+Male,White,Full-time,Other,New Jersey,Kamala Harris,44
+Male,White,Full-time,Bachelor,Indiana,Kamala Harris,61
+Female,White,Full-time,Bachelor,Oregon,Kamala Harris,24
+Female,White,Unemployed,College,Illinois,Donald Trump,28
+Male,White,Full-time,Bachelor,Maryland,Donald Trump,38
+Female,White,Full-time,Bachelor,Ohio,Kamala Harris,29
+Male,White,Retired,High School,Tennessee,Donald Trump,77
+Male,White,Part-time,College,Pennsylvania,Kamala Harris,66
+Male,White,Unemployed,High School,Illinois,Donald Trump,25
+Male,White,Part-time,High School,Virginia,Kamala Harris,24
+Male,White,Unemployed,College,Louisiana,Donald Trump,59
+Female,White,Full-time,College,Pennsylvania,Donald Trump,62
+Male,White,Full-time,College,Pennsylvania,Donald Trump,27
+Female,White,Unemployed,Bachelor,North Carolina,Kamala Harris,27
+Male,White,Unemployed,High School,Indiana,Kamala Harris,55
+Female,White,Unemployed,Bachelor,Michigan,Kamala Harris,35
+Male,White,Part-time,High School,Texas,Donald Trump,28
+Female,White,Unemployed,Bachelor,Georgia,Kamala Harris,65
+Male,White,Part-time,High School,Pennsylvania,Kamala Harris,76
+Female,White,Retired,Master or PhD,Indiana,Kamala Harris,75
+Female,White,Unemployed,High School,Ohio,Kamala Harris,24
+Male,White,Retired,Master or PhD,Pennsylvania,Kamala Harris,66
+Female,White,Retired,Bachelor,North Carolina,Kamala Harris,60
+Female,White,Full-time,College,Florida,Other,41
+Male,White,Unemployed,High School,Texas,Kamala Harris,27
+Female,White,Retired,Bachelor,Kansas,Donald Trump,74
+Female,White,Retired,Bachelor,North Carolina,Kamala Harris,71
+Male,White,Retired,Bachelor,Florida,Kamala Harris,78
+Male,Black,Part-time,Bachelor,Georgia,Donald Trump,24
+Male,Black,Unemployed,High School,Michigan,Donald Trump,22
+Female,White,Full-time,Bachelor,Colorado,Kamala Harris,23
+Female,White,Full-time,Bachelor,Washington,Kamala Harris,26
+Male,White,Retired,High School,Georgia,Donald Trump,80
+Female,White,Retired,High School,New York,Donald Trump,74
+Male,White,Full-time,Master or PhD,Georgia,Donald Trump,47
+Female,Black,Full-time,Master or PhD,Georgia,Donald Trump,47
+Male,White,Unemployed,Bachelor,Texas,Donald Trump,67
+Male,Black,Full-time,High School,Oregon,Donald Trump,26
+Male,White,Full-time,High School,New York,Other,49
+Male,White,Full-time,High School,Michigan,Other,49
+Male,Black,Unemployed,High School,Texas,Donald Trump,21
+Male,Other,Full-time,Master or PhD,Georgia,Donald Trump,67
+Male,Black,Full-time,High School,Georgia,Kamala Harris,25
+Female,White,Part-time,College,Iowa,Other,58
+Male,White,Unemployed,Bachelor,North Carolina,Donald Trump,60
+Female,White,Part-time,Bachelor,Georgia,Donald Trump,63
+Female,White,Retired,Bachelor,Georgia,Other,60
+Female,White,Part-time,Bachelor,Michigan,Kamala Harris,62
+Female,White,Unemployed,High School,Ohio,Kamala Harris,47
+Female,White,Retired,College,Georgia,Donald Trump,75
+Male,White,Full-time,Master or PhD,Maryland,Donald Trump,59
+Female,White,Unemployed,High School,Pennsylvania,Donald Trump,60
+Male,White,Retired,High School,New Jersey,Kamala Harris,72
+Male,White,Unemployed,High School,Missouri,Donald Trump,60
+Female,White,Part-time,High School,Louisiana,Donald Trump,69
+Male,Hispanic,Retired,High School,Colorado,Kamala Harris,65
+Male,Black,Unemployed,High School,New York,Donald Trump,35
+Female,White,Full-time,College,Georgia,Donald Trump,37
+Female,White,Unemployed,College,Florida,Kamala Harris,62
+Female,Black,Retired,High School,Pennsylvania,Kamala Harris,75
+Male,White,Full-time,Master or PhD,North Carolina,Kamala Harris,54
+Female,Other,Full-time,Master or PhD,Oklahoma,Kamala Harris,55
+Male,White,Retired,College,New Hampshire,Donald Trump,72
+Male,White,Full-time,Master or PhD,Florida,Kamala Harris,46
+Male,White,Retired,Bachelor,Pennsylvania,Other,66
+Female,White,Unemployed,Other,Tennessee,Donald Trump,49
+Female,White,Full-time,College,West Virginia,Donald Trump,55
+Female,White,Full-time,College,Michigan,Kamala Harris,59
+Female,Hispanic,Part-time,High School,California,Kamala Harris,56
+Male,White,Unemployed,High School,Arizona,Other,57
+Female,Asian,Unemployed,Bachelor,Ohio,Kamala Harris,38
+Female,White,Full-time,Master or PhD,Florida,Kamala Harris,37
+Male,Black,Full-time,Bachelor,Kentucky,Kamala Harris,36
+Female,Black,Full-time,Master or PhD,Georgia,Kamala Harris,44
+Female,Asian,Unemployed,Bachelor,California,Donald Trump,44
+Female,White,Unemployed,Master or PhD,Wisconsin,Other,56
+Male,Other,Full-time,High School,New York,Kamala Harris,34
+Female,White,Unemployed,High School,Colorado,Donald Trump,50
+Female,White,Retired,High School,New York,Kamala Harris,47
+Female,White,Full-time,Bachelor,Colorado,Donald Trump,27
+Male,White,Full-time,Bachelor,California,Kamala Harris,49
+Male,White,Full-time,Bachelor,Virginia,Donald Trump,20
+Female,Hispanic,Unemployed,High School,California,Donald Trump,54
+Male,White,Full-time,Other,Louisiana,Donald Trump,38
+Female,Hispanic,Full-time,Bachelor,California,Kamala Harris,50
+Male,Hispanic,Full-time,Master or PhD,Missouri,Kamala Harris,34
+Female,Other,Part-time,High School,Florida,Kamala Harris,46
+Female,White,Part-time,Master or PhD,Florida,Kamala Harris,72
+Female,Other,Unemployed,College,Colorado,Kamala Harris,33
+Female,Hispanic,Retired,College,California,Kamala Harris,70
+Male,White,Unemployed,High School,Florida,Kamala Harris,59
+Male,White,Part-time,Bachelor,Virginia,Kamala Harris,64
+Female,White,Full-time,Master or PhD,Illinois,Kamala Harris,50
+Male,White,Retired,College,Iowa,Kamala Harris,64
+Female,Hispanic,Full-time,Bachelor,California,Kamala Harris,25
+Male,Hispanic,Full-time,Bachelor,Oregon,Kamala Harris,34
+Female,Asian,Part-time,Master or PhD,Pennsylvania,Kamala Harris,63
+Female,Hispanic,Full-time,Bachelor,Texas,Kamala Harris,24
+Male,White,Retired,Bachelor,Florida,Kamala Harris,71
+Male,White,Full-time,Other,Florida,Donald Trump,25
+Male,White,Retired,College,Oklahoma,Kamala Harris,74
+Male,White,Full-time,College,New York,Kamala Harris,54
+Male,White,Retired,College,Illinois,Kamala Harris,78
+Female,Hispanic,Unemployed,College,California,Donald Trump,37
+Male,Asian,Full-time,Bachelor,New York,Donald Trump,30
+Female,White,Full-time,Master or PhD,Alabama,Kamala Harris,72
+Female,Other,Full-time,Bachelor,Maryland,Kamala Harris,52
+Female,White,Retired,Bachelor,New York,Kamala Harris,63
+Male,Hispanic,Retired,High School,Florida,Kamala Harris,79
+Male,White,Retired,High School,North Carolina,Kamala Harris,69
+Male,Hispanic,Full-time,Master or PhD,Illinois,Kamala Harris,21
+Female,White,Unemployed,Bachelor,Massachusetts,Donald Trump,59
+Female,Asian,Unemployed,College,Illinois,Kamala Harris,54
+Female,White,Unemployed,Master or PhD,Wisconsin,Donald Trump,67
+Female,White,Unemployed,Bachelor,Pennsylvania,Kamala Harris,60
+Female,White,Retired,Bachelor,Maine,Kamala Harris,80
+Female,White,Part-time,Bachelor,Tennessee,Kamala Harris,68
+Female,Other,Retired,Master or PhD,Montana,Kamala Harris,82
+Male,White,Retired,High School,Ohio,Other,71
+Female,Other,Retired,Master or PhD,Wisconsin,Other,76
+Male,White,Retired,High School,Michigan,Kamala Harris,71
+Male,White,Retired,Bachelor,New Jersey,Kamala Harris,76
+Female,White,Unemployed,Master or PhD,Oklahoma,Kamala Harris,58
+Male,White,Retired,College,Kansas,Kamala Harris,78
+Female,Other,Full-time,College,Michigan,Kamala Harris,35
+Male,White,Part-time,Master or PhD,New York,Kamala Harris,24
+Female,White,Full-time,Master or PhD,California,Kamala Harris,55
+Male,Hispanic,Full-time,High School,New York,Kamala Harris,33
+Male,White,Unemployed,High School,New Mexico,Kamala Harris,36
+Male,White,Part-time,High School,Wisconsin,Kamala Harris,29
+Male,Hispanic,Full-time,High School,Texas,Kamala Harris,52
+Male,White,Unemployed,High School,California,Other,55
+Male,White,Full-time,High School,Ohio,Donald Trump,60
+Male,White,Unemployed,High School,New York,Donald Trump,55
+Male,White,Unemployed,High School,Illinois,Donald Trump,55
+Male,Black,Part-time,High School,Maryland,Kamala Harris,61
+Male,Black,Part-time,High School,California,Donald Trump,30
+Male,Hispanic,Unemployed,College,Arizona,Kamala Harris,41
+Male,Other,Unemployed,College,Alaska,Donald Trump,55
+Male,White,Part-time,Bachelor,Nevada,Other,24
+Male,Other,Unemployed,High School,Louisiana,Donald Trump,26
+Female,White,Full-time,College,New Jersey,Other,20
+Male,White,Full-time,Bachelor,Missouri,Donald Trump,33
+Male,Black,Part-time,High School,New York,Donald Trump,30
+Male,Black,Part-time,High School,Washington,Donald Trump,24
+Male,White,Full-time,Bachelor,New York,Donald Trump,59
+Female,Black,Full-time,High School,Georgia,Donald Trump,21
+Male,White,Unemployed,College,South Carolina,Kamala Harris,29
+Female,White,Unemployed,Bachelor,Michigan,Donald Trump,34
+Female,White,Part-time,High School,Michigan,Other,40
+Male,White,Full-time,Bachelor,North Carolina,Donald Trump,55
+Male,Hispanic,Unemployed,Bachelor,Florida,Other,61
+Male,White,Full-time,High School,Illinois,Donald Trump,32
+Female,Other,Unemployed,High School,New Mexico,Donald Trump,43
+Male,Black,Unemployed,Bachelor,Nevada,Kamala Harris,54
+Male,White,Unemployed,High School,California,Kamala Harris,24
+Female,White,Full-time,Bachelor,Arizona,Donald Trump,39
+Female,Hispanic,Unemployed,College,Texas,Donald Trump,35
+Male,Hispanic,Full-time,High School,Texas,Donald Trump,47
+Male,White,Part-time,High School,Florida,Donald Trump,30
+Male,White,Full-time,Bachelor,Pennsylvania,Donald Trump,30
+Female,Black,Unemployed,College,Hawaii,Other,40
+Female,White,Full-time,Bachelor,Pennsylvania,Donald Trump,25
+Female,White,Unemployed,Bachelor,California,Donald Trump,76
+Male,White,Full-time,Bachelor,Florida,Donald Trump,46
+Female,White,Unemployed,High School,Virginia,Donald Trump,42
+Female,White,Part-time,College,Ohio,Donald Trump,70
+Female,White,Full-time,Bachelor,South Carolina,Kamala Harris,24
+Female,White,Full-time,High School,Missouri,Donald Trump,40
+Male,White,Part-time,High School,Nevada,Donald Trump,28
+Female,White,Part-time,Bachelor,Pennsylvania,Donald Trump,73
+Male,White,Full-time,Bachelor,Texas,Kamala Harris,29
+Female,White,Unemployed,Other,Michigan,Donald Trump,41
+Female,Hispanic,Full-time,High School,Texas,Other,41
+Female,White,Retired,Bachelor,New Hampshire,Other,86
+Female,Black,Part-time,Bachelor,Georgia,Kamala Harris,46
+Female,White,Full-time,High School,Michigan,Donald Trump,44
+Male,White,Full-time,Bachelor,West Virginia,Donald Trump,73
+Female,Black,Part-time,Bachelor,California,Kamala Harris,44
+Male,White,Retired,Bachelor,Texas,Donald Trump,68
+Female,White,Retired,High School,Georgia,Donald Trump,66
+Male,White,Part-time,High School,California,Kamala Harris,40
+Female,White,Unemployed,Bachelor,Oregon,Donald Trump,40
+Female,White,Retired,High School,Wisconsin,Kamala Harris,70
+Male,Black,Full-time,College,Ohio,Kamala Harris,36
+Female,Other,Full-time,College,Texas,Kamala Harris,28
+Female,Hispanic,Full-time,High School,Florida,Kamala Harris,21
+Male,Hispanic,Unemployed,High School,Texas,Donald Trump,51
+Male,White,Full-time,Other,California,Donald Trump,44
+Female,Hispanic,Unemployed,Bachelor,Arizona,Kamala Harris,38
+Female,Black,Retired,Bachelor,Oregon,Kamala Harris,64
+Male,White,Full-time,Bachelor,Iowa,Other,48
+Female,White,Unemployed,College,Michigan,Other,54
+Male,Hispanic,Full-time,Bachelor,North Carolina,Kamala Harris,40
+Female,Black,Part-time,Bachelor,Georgia,Donald Trump,25
+Male,White,Full-time,Bachelor,Florida,Kamala Harris,51
+Male,Other,Unemployed,High School,California,Donald Trump,50
+Female,White,Full-time,Bachelor,Oklahoma,Kamala Harris,54
+Female,White,Full-time,Master or PhD,New York,Kamala Harris,39
+Male,White,Full-time,Master or PhD,New York,Kamala Harris,42
+Male,White,Retired,High School,Michigan,Other,64
+Female,Other,Unemployed,College,Kansas,Kamala Harris,55
+Male,Asian,Full-time,Bachelor,New Jersey,Kamala Harris,41
+Male,White,Full-time,Other,North Dakota,Donald Trump,34
+Male,Asian,Full-time,Bachelor,California,Kamala Harris,27
+Female,Other,Unemployed,High School,South Dakota,Kamala Harris,62
+Female,Asian,Full-time,Bachelor,Washington,Kamala Harris,47
+Female,Black,Unemployed,High School,Pennsylvania,Kamala Harris,23
+Female,Other,Unemployed,College,Texas,Kamala Harris,22
+Male,White,Unemployed,Bachelor,Michigan,Kamala Harris,28
+Male,White,Unemployed,High School,Pennsylvania,Other,58
+Male,White,Retired,Bachelor,North Carolina,Donald Trump,54
+Male,Black,Full-time,College,California,Kamala Harris,41
+Male,White,Retired,Bachelor,Georgia,Donald Trump,64
+Male,White,Retired,Bachelor,Texas,Donald Trump,64
+Male,White,Retired,High School,New York,Donald Trump,63
+Male,Black,Full-time,Bachelor,New York,Kamala Harris,24
+Female,White,Unemployed,Other,Louisiana,Kamala Harris,55
+Female,White,Part-time,High School,Washington,Donald Trump,60
+Male,White,Unemployed,High School,New Hampshire,Kamala Harris,37
+Male,Black,Part-time,High School,New York,Donald Trump,24
+Female,Black,Part-time,High School,Florida,Kamala Harris,22
+Female,White,Unemployed,High School,Minnesota,Other,62
+Male,Hispanic,Retired,Bachelor,Texas,Kamala Harris,66
+Male,White,Unemployed,High School,Florida,Donald Trump,52
+Male,White,Full-time,High School,Illinois,Donald Trump,56
+Female,White,Full-time,High School,Ohio,Donald Trump,51
+Female,White,Part-time,Bachelor,New York,Kamala Harris,25
+Male,Black,Unemployed,High School,New York,Kamala Harris,21
+Male,White,Unemployed,High School,Wisconsin,Donald Trump,34
+Female,Other,Unemployed,High School,Pennsylvania,Other,44
+Male,White,Full-time,College,Florida,Kamala Harris,30
+Male,White,Full-time,Bachelor,Florida,Donald Trump,49
+Male,White,Full-time,Master or PhD,Oregon,Kamala Harris,34
+Male,White,Full-time,College,Arkansas,Donald Trump,39
+Female,White,Full-time,Bachelor,North Dakota,Kamala Harris,45
+Female,White,Full-time,Master or PhD,Minnesota,Kamala Harris,23
+Male,White,Unemployed,College,Michigan,Kamala Harris,21
+Male,White,Full-time,Master or PhD,North Carolina,Kamala Harris,41
+Female,White,Unemployed,Other,Oregon,Kamala Harris,44
+Female,White,Full-time,Master or PhD,Washington,Kamala Harris,28
+Male,Other,Unemployed,Other,Illinois,Donald Trump,34
+Female,White,Retired,High School,Florida,Kamala Harris,67
+Male,White,Unemployed,College,Ohio,Kamala Harris,24
+Female,White,Retired,College,Georgia,Donald Trump,71
+Female,Asian,Part-time,Bachelor,Hawaii,Kamala Harris,54
+Male,White,Retired,Bachelor,Washington,Donald Trump,76
+Male,White,Retired,Bachelor,Utah,Donald Trump,67
+Male,White,Part-time,High School,Georgia,Donald Trump,69
+Male,White,Part-time,Bachelor,Virginia,Donald Trump,23
+Female,White,Full-time,Master or PhD,California,Kamala Harris,34
+Female,White,Full-time,Master or PhD,Texas,Kamala Harris,34
+Male,White,Full-time,Bachelor,Louisiana,Kamala Harris,43
+Male,White,Full-time,Master or PhD,West Virginia,Donald Trump,42
+Female,White,Full-time,Bachelor,Texas,Donald Trump,58
+Female,White,Retired,High School,New Jersey,Donald Trump,66
+Male,Asian,Full-time,Bachelor,Nevada,Kamala Harris,34
+Male,White,Full-time,College,California,Kamala Harris,26
+Male,White,Full-time,Master or PhD,Florida,Kamala Harris,43
+Male,White,Full-time,College,Michigan,Donald Trump,62
+Male,White,Retired,Master or PhD,Oklahoma,Donald Trump,73
+Male,White,Retired,Bachelor,Mississippi,Donald Trump,78
+Male,White,Retired,Master or PhD,Texas,Other,73
+Male,White,Part-time,College,Tennessee,Donald Trump,49
+Male,White,Retired,Bachelor,West Virginia,Other,77
+Female,White,Retired,Bachelor,Indiana,Kamala Harris,78
+Female,Hispanic,Unemployed,College,California,Kamala Harris,56
+Female,Other,Full-time,High School,Michigan,Donald Trump,56
+Male,White,Unemployed,Bachelor,Montana,Donald Trump,44
+Male,White,Retired,Bachelor,North Carolina,Donald Trump,92
+Female,Other,Retired,Bachelor,Oregon,Kamala Harris,74
+Male,White,Retired,College,Florida,Donald Trump,90
+Female,Hispanic,Retired,High School,Texas,Donald Trump,75
+Male,White,Retired,High School,Missouri,Other,69
+Male,White,Full-time,Master or PhD,Washington,Kamala Harris,33
+Female,White,Full-time,Master or PhD,Texas,Other,28
+Male,White,Unemployed,Master or PhD,Connecticut,Kamala Harris,27
+Female,White,Full-time,High School,Wisconsin,Kamala Harris,53
+Male,Black,Unemployed,Bachelor,Georgia,Other,21
+Female,White,Full-time,Bachelor,Ohio,Kamala Harris,46
+Female,White,Unemployed,Master or PhD,Ohio,Kamala Harris,61
+Female,White,Unemployed,Other,New York,Donald Trump,28
+Male,White,Unemployed,Bachelor,Massachusetts,Kamala Harris,25
+Male,White,Full-time,Master or PhD,North Carolina,Kamala Harris,58
+Male,White,Full-time,Master or PhD,District of Columbia,Kamala Harris,59
+Female,White,Part-time,High School,Florida,Other,54
+Female,White,Unemployed,High School,Iowa,Kamala Harris,50
+Female,White,Full-time,Bachelor,Connecticut,Kamala Harris,44
+Female,White,Unemployed,Bachelor,Texas,Kamala Harris,59
+Female,White,Part-time,High School,Vermont,Kamala Harris,64
+Female,White,Unemployed,High School,California,Other,63
+Female,White,Unemployed,High School,New York,Kamala Harris,32
+Male,White,Unemployed,Bachelor,Texas,Kamala Harris,24
+Female,Other,Part-time,High School,New York,Other,51
+Female,White,Part-time,Master or PhD,Ohio,Kamala Harris,57
+Female,Other,Retired,High School,New York,Donald Trump,63
+Male,Hispanic,Part-time,Bachelor,California,Donald Trump,34
+Female,Asian,Full-time,High School,California,Donald Trump,62
+Male,Other,Part-time,High School,Texas,Kamala Harris,46
+Female,Hispanic,Unemployed,College,Arizona,Donald Trump,51
+Female,White,Unemployed,Bachelor,California,Kamala Harris,59
+Female,Other,Full-time,Bachelor,New York,Kamala Harris,32
+Female,Hispanic,Full-time,High School,California,Donald Trump,36
+Female,White,Retired,Bachelor,Pennsylvania,Donald Trump,63
+Male,White,Unemployed,High School,Florida,Other,22
+Female,Other,Unemployed,Bachelor,Florida,Donald Trump,35
+Female,Asian,Part-time,Bachelor,Arizona,Donald Trump,58
+Male,Other,Full-time,Bachelor,Alabama,Other,46
+Female,Black,Full-time,Bachelor,Minnesota,Other,24
+Female,Black,Full-time,Bachelor,Delaware,Kamala Harris,25
+Male,Black,Full-time,Other,California,Other,30
+Female,Black,Unemployed,Other,Virginia,Other,54
+Female,Black,Full-time,Bachelor,Colorado,Other,35
+Male,Black,Full-time,College,New York,Kamala Harris,27
+Female,White,Unemployed,High School,Pennsylvania,Donald Trump,63
+Female,Other,Full-time,Bachelor,Missouri,Other,25
+Male,Black,Retired,Bachelor,South Carolina,Donald Trump,63
+Female,White,Retired,Bachelor,Missouri,Donald Trump,81
+Female,White,Unemployed,Bachelor,Indiana,Donald Trump,74
+Female,White,Unemployed,Other,Iowa,Kamala Harris,24
+Male,Black,Full-time,High School,California,Kamala Harris,40
+Female,White,Retired,High School,Tennessee,Kamala Harris,66
+Male,Black,Part-time,High School,Kentucky,Donald Trump,33
+Female,White,Unemployed,High School,Illinois,Donald Trump,68
+Male,Black,Retired,High School,Louisiana,Kamala Harris,70
+Female,White,Part-time,High School,Washington,Kamala Harris,69
+Male,White,Unemployed,High School,Florida,Kamala Harris,55
+Male,White,Unemployed,Master or PhD,California,Kamala Harris,61
+Male,White,Full-time,High School,Georgia,Donald Trump,64
+Male,White,Unemployed,High School,Georgia,Donald Trump,62
+Female,White,Retired,High School,New York,Donald Trump,83
+Male,White,Part-time,High School,Texas,Kamala Harris,39
+Female,White,Part-time,High School,Missouri,Kamala Harris,72
+Female,White,Unemployed,College,Arkansas,Donald Trump,80
+Female,Black,Unemployed,High School,Georgia,Donald Trump,22
+Male,White,Retired,High School,Illinois,Kamala Harris,74
+Female,White,Retired,High School,Florida,Kamala Harris,75
+Female,Black,Part-time,Master or PhD,Texas,Kamala Harris,28
+Male,Black,Full-time,High School,Georgia,Donald Trump,27
+Male,White,Retired,College,Arkansas,Donald Trump,66
+Female,White,Part-time,Bachelor,New York,Kamala Harris,29
+Male,White,Full-time,High School,Missouri,Kamala Harris,45
+Female,White,Unemployed,High School,Texas,Donald Trump,78
+Male,White,Unemployed,Other,Oregon,Kamala Harris,24
+Male,White,Retired,College,Washington,Donald Trump,90
+Male,Black,Full-time,Bachelor,Missouri,Other,31
+Female,White,Unemployed,College,New York,Kamala Harris,21
+Male,Hispanic,Unemployed,College,California,Other,33
+Female,White,Part-time,Bachelor,New York,Other,28
+Female,White,Part-time,High School,Nevada,Donald Trump,24
+Male,White,Unemployed,Bachelor,Minnesota,Kamala Harris,21
+Female,Asian,Unemployed,Bachelor,Texas,Other,36
+Male,Black,Full-time,Bachelor,Florida,Kamala Harris,34
+Male,Hispanic,Full-time,High School,California,Donald Trump,24
+Female,White,Full-time,High School,Texas,Kamala Harris,62
+Male,Hispanic,Retired,High School,New York,Kamala Harris,57
+Male,Black,Part-time,Bachelor,New York,Donald Trump,30
+Male,White,Full-time,College,North Carolina,Other,55
+Female,White,Unemployed,College,Ohio,Donald Trump,32
+Male,White,Part-time,College,Pennsylvania,Other,60
+Male,White,Full-time,Bachelor,Louisiana,Donald Trump,58
+Female,White,Full-time,Bachelor,North Carolina,Kamala Harris,29
+Female,White,Part-time,Master or PhD,Maryland,Donald Trump,48
+Female,Hispanic,Part-time,High School,Connecticut,Kamala Harris,54
+Male,White,Unemployed,High School,Michigan,Donald Trump,63
+Female,White,Full-time,High School,Indiana,Donald Trump,26
+Male,Hispanic,Full-time,Bachelor,New York,Kamala Harris,47
+Male,White,Full-time,Bachelor,Wisconsin,Kamala Harris,47
+Male,Black,Unemployed,High School,Ohio,Donald Trump,23
+Male,White,Full-time,College,Alabama,Donald Trump,31
+Female,White,Unemployed,Other,Missouri,Donald Trump,54
+Male,White,Full-time,Bachelor,Nevada,Kamala Harris,27
+Female,White,Unemployed,High School,Minnesota,Donald Trump,56
+Male,Hispanic,Full-time,Master or PhD,Texas,Donald Trump,54
+Male,White,Retired,High School,Texas,Donald Trump,57
+Female,White,Unemployed,College,West Virginia,Donald Trump,37
+Male,White,Full-time,Master or PhD,New York,Kamala Harris,39
+Female,White,Part-time,High School,Washington,Donald Trump,27
+Male,Other,Full-time,Bachelor,New York,Other,26
+Female,Hispanic,Full-time,Bachelor,Florida,Kamala Harris,53
+Female,White,Full-time,Bachelor,California,Kamala Harris,26
+Female,Asian,Unemployed,College,California,Kamala Harris,40
+Male,Hispanic,Part-time,Bachelor,Florida,Kamala Harris,30
+Female,Other,Full-time,Bachelor,Georgia,Kamala Harris,34
+Male,Hispanic,Unemployed,College,New York,Donald Trump,29
+Female,White,Full-time,College,Pennsylvania,Other,40
+Female,White,Unemployed,Bachelor,Indiana,Kamala Harris,45
+Female,Asian,Retired,Bachelor,Louisiana,Kamala Harris,30
+Male,White,Unemployed,College,California,Other,56
+Male,Other,Full-time,High School,Texas,Kamala Harris,32
+Male,White,Full-time,Bachelor,Illinois,Kamala Harris,47
+Male,White,Full-time,Master or PhD,Florida,Kamala Harris,49
+Female,White,Full-time,Bachelor,Kansas,Kamala Harris,49
+Male,White,Unemployed,Bachelor,Florida,Donald Trump,59
+Male,White,Full-time,Master or PhD,Arkansas,Kamala Harris,42
+Male,White,Full-time,Master or PhD,California,Donald Trump,59
+Male,White,Full-time,Bachelor,Illinois,Kamala Harris,31
+Female,White,Unemployed,Master or PhD,New York,Kamala Harris,41
+Female,White,Unemployed,Bachelor,Arizona,Other,34
+Male,White,Part-time,Other,New York,Other,28
+Male,Black,Unemployed,High School,New Jersey,Other,24
+Male,White,Unemployed,Other,Arkansas,Other,43
+Male,White,Unemployed,High School,Texas,Kamala Harris,24
+Female,White,Part-time,High School,New York,Other,58
+Male,White,Unemployed,High School,Wisconsin,Kamala Harris,51
+Male,White,Retired,College,Ohio,Kamala Harris,70
+Female,White,Full-time,High School,California,Kamala Harris,20
+Male,White,Full-time,High School,Kansas,Donald Trump,51
+Female,White,Unemployed,Bachelor,Arkansas,Other,59
+Male,White,Unemployed,Bachelor,New York,Other,48
+Male,White,Full-time,High School,Wisconsin,Donald Trump,31
+Female,Black,Unemployed,High School,Georgia,Kamala Harris,24
+Female,White,Retired,College,New York,Kamala Harris,71
+Male,White,Part-time,High School,Texas,Donald Trump,60
+Female,White,Unemployed,College,Pennsylvania,Kamala Harris,68
+Male,White,Retired,High School,Michigan,Donald Trump,62
+Male,White,Retired,Bachelor,New Hampshire,Donald Trump,74
+Male,White,Retired,Bachelor,New Hampshire,Kamala Harris,59
+Male,White,Retired,College,New Jersey,Kamala Harris,63
+Male,White,Full-time,Other,Indiana,Donald Trump,61
+Female,White,Full-time,Bachelor,North Dakota,Donald Trump,28
+Female,White,Full-time,College,Florida,Donald Trump,51
+Male,Black,Full-time,Master or PhD,California,Kamala Harris,25
+Male,White,Retired,College,Minnesota,Donald Trump,77
+Female,White,Retired,Master or PhD,Pennsylvania,Kamala Harris,66
+Male,Black,Full-time,Master or PhD,Virginia,Donald Trump,26
+Female,Asian,Full-time,Bachelor,New York,Kamala Harris,34
+Male,Black,Full-time,College,Virginia,Kamala Harris,40
+Female,White,Unemployed,High School,Kentucky,Donald Trump,39
+Female,Black,Unemployed,Bachelor,New York,Other,36
+Female,White,Unemployed,High School,Minnesota,Kamala Harris,38
+Male,White,Unemployed,College,New York,Donald Trump,24
+Male,White,Retired,College,Michigan,Donald Trump,69
+Female,White,Unemployed,High School,Wisconsin,Kamala Harris,59
+Female,White,Unemployed,Bachelor,Ohio,Donald Trump,53
+Male,White,Full-time,Bachelor,New York,Kamala Harris,61
+Female,Other,Full-time,High School,Pennsylvania,Donald Trump,36
+Male,White,Part-time,Bachelor,Oklahoma,Kamala Harris,39
+Female,Black,Full-time,Master or PhD,Florida,Kamala Harris,46
+Male,White,Retired,Bachelor,Wisconsin,Donald Trump,68
+Male,White,Part-time,Master or PhD,North Carolina,Kamala Harris,45
+Male,Other,Retired,High School,New Jersey,Kamala Harris,67
+Female,White,Unemployed,High School,Ohio,Other,42
+Male,Other,Retired,Master or PhD,Tennessee,Kamala Harris,54
+Female,Black,Retired,Master or PhD,Florida,Kamala Harris,44
+Female,Black,Full-time,Bachelor,Florida,Kamala Harris,32
+Male,White,Full-time,Master or PhD,Texas,Kamala Harris,45
+Female,Other,Retired,College,Texas,Other,61
+Male,Other,Full-time,Master or PhD,Georgia,Donald Trump,61
+Female,White,Part-time,High School,New York,Kamala Harris,24
+Male,Black,Full-time,High School,Louisiana,Kamala Harris,55
+Male,Black,Part-time,High School,California,Donald Trump,24
+Male,Black,Full-time,College,New York,Donald Trump,48
+Male,White,Unemployed,College,Pennsylvania,Kamala Harris,21
+Male,Black,Full-time,High School,New Jersey,Kamala Harris,33
+Male,Black,Unemployed,High School,Michigan,Kamala Harris,20
+Male,Hispanic,Part-time,College,Virginia,Donald Trump,20
+Female,White,Unemployed,Bachelor,Connecticut,Donald Trump,68
+Male,White,Retired,Bachelor,Maryland,Donald Trump,39
+Male,Hispanic,Unemployed,College,New Jersey,Kamala Harris,57
+Male,White,Full-time,Bachelor,Tennessee,Kamala Harris,52
+Female,White,Full-time,Bachelor,Pennsylvania,Kamala Harris,64
+Female,Black,Full-time,Bachelor,Florida,Kamala Harris,68
+Female,White,Retired,Master or PhD,Kentucky,Kamala Harris,78
+Male,White,Unemployed,College,Alabama,Donald Trump,23
+Female,White,Full-time,Bachelor,New York,Donald Trump,60
+Male,White,Full-time,College,Florida,Donald Trump,32
+Female,White,Full-time,Bachelor,Kentucky,Kamala Harris,52
+Female,White,Full-time,High School,New York,Kamala Harris,63
+Female,White,Unemployed,High School,Colorado,Other,29
+Male,White,Unemployed,Bachelor,New Jersey,Kamala Harris,57
+Female,White,Part-time,High School,Minnesota,Kamala Harris,71
+Female,White,Full-time,Master or PhD,California,Kamala Harris,70
+Female,White,Full-time,Master or PhD,New York,Kamala Harris,30
+Male,White,Retired,High School,New York,Donald Trump,57
+Female,White,Part-time,Master or PhD,New Jersey,Kamala Harris,53
+Female,White,Unemployed,High School,Kentucky,Donald Trump,65
+Female,White,Full-time,Bachelor,Oregon,Kamala Harris,27
+Female,White,Unemployed,Master or PhD,West Virginia,Kamala Harris,37
+Female,White,Retired,Bachelor,Arkansas,Kamala Harris,73
+Female,White,Retired,High School,Idaho,Donald Trump,75
+Female,White,Full-time,Master or PhD,Alabama,Kamala Harris,35
+Female,White,Unemployed,Master or PhD,New York,Kamala Harris,53
+Male,White,Part-time,College,Rhode Island,Kamala Harris,57
+Female,White,Retired,Bachelor,Iowa,Kamala Harris,62
+Male,White,Full-time,Master or PhD,California,Kamala Harris,37
+Female,White,Unemployed,Master or PhD,Maryland,Kamala Harris,70
+Female,White,Retired,Master or PhD,Wisconsin,Kamala Harris,72
+Female,White,Retired,Bachelor,Texas,Other,66
+Male,White,Full-time,High School,Massachusetts,Kamala Harris,55
+Female,White,Retired,Bachelor,Michigan,Kamala Harris,75
+Female,White,Retired,College,Massachusetts,Donald Trump,74
+Male,White,Full-time,High School,California,Kamala Harris,31
+Male,White,Full-time,High School,Colorado,Other,56
+Male,White,Unemployed,High School,New York,Kamala Harris,53
+Female,White,Retired,College,Washington,Donald Trump,81
+Female,White,Full-time,Bachelor,Florida,Donald Trump,55
+Female,White,Retired,College,Missouri,Kamala Harris,71
+Female,White,Full-time,Master or PhD,Illinois,Kamala Harris,45
+Female,White,Retired,High School,Minnesota,Donald Trump,72
+Female,Hispanic,Full-time,College,Tennessee,Kamala Harris,30
+Female,White,Retired,Bachelor,Indiana,Donald Trump,72
+Female,White,Retired,Bachelor,New York,Donald Trump,79
+Female,Hispanic,Full-time,Bachelor,Colorado,Kamala Harris,51
+Male,Other,Unemployed,High School,Iowa,Kamala Harris,45
+Female,White,Retired,High School,Louisiana,Donald Trump,75
+Female,Black,Unemployed,High School,Florida,Donald Trump,59
+Female,Hispanic,Unemployed,High School,Arizona,Other,33
+Female,White,Unemployed,Other,Florida,Kamala Harris,38
+Female,Other,Unemployed,High School,Nevada,Other,44
+Male,Other,Unemployed,High School,South Dakota,Kamala Harris,38
+Female,White,Part-time,High School,New Jersey,Kamala Harris,25
+Female,White,Part-time,College,North Carolina,Donald Trump,52
+Male,White,Part-time,Bachelor,Florida,Kamala Harris,63
+Male,White,Retired,Bachelor,Texas,Donald Trump,79
+Female,Black,Full-time,College,California,Kamala Harris,61
+Male,White,Full-time,Bachelor,Texas,Donald Trump,35
+Female,Other,Unemployed,College,Texas,Kamala Harris,20
+Female,White,Retired,College,Kansas,Donald Trump,63
+Female,White,Unemployed,Bachelor,Florida,Donald Trump,48
+Male,White,Retired,Bachelor,Iowa,Donald Trump,77
+Female,White,Unemployed,College,Louisiana,Donald Trump,61
+Male,White,Retired,College,North Carolina,Donald Trump,74
+Male,White,Retired,College,Ohio,Kamala Harris,77
+Male,White,Full-time,Bachelor,Florida,Donald Trump,40
+Male,White,Part-time,Bachelor,Illinois,Donald Trump,23
+Female,White,Full-time,Bachelor,Georgia,Donald Trump,29
+Female,White,Part-time,College,California,Donald Trump,45
+Male,White,Retired,Bachelor,Idaho,Donald Trump,63
+Male,White,Retired,Bachelor,Georgia,Kamala Harris,59
+Female,White,Full-time,Bachelor,Florida,Donald Trump,47
+Female,Other,Unemployed,Bachelor,California,Kamala Harris,46
+Female,White,Full-time,Bachelor,California,Other,20
+Male,White,Part-time,Bachelor,California,Donald Trump,32
+Female,White,Full-time,Bachelor,Wisconsin,Kamala Harris,25
+Male,White,Retired,Bachelor,Arkansas,Donald Trump,73
+Male,White,Part-time,Bachelor,Indiana,Donald Trump,65
+Male,White,Retired,Bachelor,Texas,Donald Trump,70
+Male,White,Retired,Bachelor,Alabama,Donald Trump,82
+Male,White,Retired,Bachelor,Pennsylvania,Donald Trump,66
+Male,White,Full-time,College,Pennsylvania,Kamala Harris,71
+Male,White,Full-time,High School,North Dakota,Other,52
+Male,White,Part-time,Bachelor,New York,Donald Trump,24
+Male,Other,Retired,Bachelor,Illinois,Donald Trump,68
+Male,White,Full-time,Bachelor,Texas,Donald Trump,40
+Male,White,Retired,Bachelor,Indiana,Donald Trump,83
+Male,White,Retired,Bachelor,Maryland,Donald Trump,82
+Male,White,Part-time,Bachelor,Louisiana,Donald Trump,25
+Male,White,Full-time,College,New Jersey,Kamala Harris,45
+Female,White,Unemployed,College,Iowa,Other,63
+Male,White,Retired,College,Pennsylvania,Donald Trump,83
+Male,White,Full-time,Bachelor,Pennsylvania,Donald Trump,22
+Female,Hispanic,Unemployed,College,Texas,Other,47
+Female,White,Unemployed,Bachelor,Pennsylvania,Donald Trump,33
+Male,White,Retired,Bachelor,Illinois,Donald Trump,76
+Female,Black,Full-time,High School,Florida,Kamala Harris,55
+Female,Black,Part-time,High School,North Carolina,Donald Trump,60
+Male,Other,Unemployed,High School,California,Kamala Harris,30
+Female,Hispanic,Unemployed,Other,Arizona,Kamala Harris,64
+Male,Other,Unemployed,High School,Illinois,Kamala Harris,27
+Male,Black,Part-time,High School,Tennessee,Kamala Harris,45
+Male,Black,Unemployed,High School,California,Kamala Harris,32
+Female,Hispanic,Full-time,High School,Wisconsin,Kamala Harris,44
+Female,White,Unemployed,College,Washington,Donald Trump,57
+Male,Black,Full-time,High School,New York,Kamala Harris,27
+Female,White,Unemployed,High School,Missouri,Kamala Harris,30
+Female,Black,Part-time,High School,California,Kamala Harris,34
+Male,White,Unemployed,High School,New York,Kamala Harris,31
+Male,Hispanic,Unemployed,Other,Arizona,Donald Trump,30
+Female,Hispanic,Unemployed,High School,California,Kamala Harris,54
+Male,Hispanic,Full-time,High School,Nevada,Kamala Harris,26
+Male,Black,Full-time,High School,New York,Donald Trump,24
+Female,Hispanic,Full-time,High School,Illinois,Donald Trump,45
+Female,Other,Full-time,High School,California,Kamala Harris,29
+Male,Hispanic,Unemployed,High School,California,Kamala Harris,57
+Male,Hispanic,Full-time,High School,Wisconsin,Kamala Harris,54
+Female,White,Part-time,High School,Colorado,Kamala Harris,25
+Female,Hispanic,Unemployed,High School,California,Other,24
+Male,Other,Full-time,High School,Texas,Donald Trump,43
+Female,White,Full-time,Other,Kansas,Other,42
+Female,White,Unemployed,High School,Massachusetts,Donald Trump,64
+Male,White,Full-time,Master or PhD,Virginia,Kamala Harris,40
+Female,White,Retired,High School,Pennsylvania,Donald Trump,61
+Female,Black,Full-time,Master or PhD,Pennsylvania,Donald Trump,39
+Male,White,Full-time,Master or PhD,New York,Other,55
+Male,White,Full-time,High School,Florida,Donald Trump,57
+Female,Black,Unemployed,Master or PhD,Michigan,Kamala Harris,45
+Male,White,Full-time,High School,Wyoming,Donald Trump,51
+Male,Black,Full-time,Master or PhD,Minnesota,Kamala Harris,40
+Female,White,Unemployed,High School,Washington,Other,60
+Female,White,Unemployed,High School,Nevada,Kamala Harris,48
+Male,Hispanic,Retired,Master or PhD,California,Kamala Harris,68
+Female,White,Part-time,High School,New York,Donald Trump,68
+Female,Hispanic,Part-time,Master or PhD,Illinois,Kamala Harris,50
+Male,White,Unemployed,High School,Pennsylvania,Kamala Harris,57
+Female,White,Retired,High School,Alabama,Donald Trump,79
+Female,White,Unemployed,High School,Florida,Donald Trump,47
+Female,Black,Full-time,Master or PhD,Oklahoma,Kamala Harris,61
+Female,White,Unemployed,High School,Florida,Kamala Harris,36
+Male,Asian,Full-time,Master or PhD,Florida,Donald Trump,59
+Female,White,Retired,High School,Ohio,Other,80
+Male,Black,Unemployed,High School,New York,Kamala Harris,60
+Male,White,Retired,High School,Virginia,Donald Trump,62
+Male,White,Unemployed,Other,New Jersey,Other,29
+Female,White,Retired,High School,Florida,Donald Trump,74
+Female,White,Unemployed,Master or PhD,Tennessee,Kamala Harris,34
+Female,White,Retired,Other,North Carolina,Donald Trump,73
+Female,White,Retired,High School,Ohio,Donald Trump,74
+Male,Black,Full-time,High School,Florida,Other,23
+Female,Black,Retired,Master or PhD,Florida,Kamala Harris,74
+Female,White,Unemployed,High School,Oregon,Kamala Harris,56
+Female,White,Unemployed,Other,California,Kamala Harris,58
+Male,Hispanic,Retired,Master or PhD,Texas,Kamala Harris,69
+Male,White,Unemployed,High School,Texas,Kamala Harris,64
+Female,White,Part-time,High School,Texas,Kamala Harris,55
+Male,White,Unemployed,High School,Indiana,Kamala Harris,62
+Female,White,Retired,High School,Florida,Kamala Harris,71
+Male,White,Full-time,Master or PhD,Massachusetts,Kamala Harris,47
+Female,White,Retired,High School,North Carolina,Kamala Harris,78
+Male,White,Unemployed,High School,Oregon,Donald Trump,21
+Female,White,Retired,High School,Texas,Donald Trump,78
+Male,White,Retired,High School,Colorado,Donald Trump,64
+Female,White,Retired,High School,Indiana,Donald Trump,75
+Female,Hispanic,Unemployed,High School,Florida,Donald Trump,60
+Male,White,Retired,Master or PhD,New York,Kamala Harris,64
+Female,Black,Full-time,Bachelor,New York,Kamala Harris,44
+Female,Black,Retired,Master or PhD,Florida,Kamala Harris,90
+Female,White,Part-time,Master or PhD,California,Kamala Harris,52
+Female,White,Unemployed,Bachelor,Ohio,Kamala Harris,55
+Female,White,Retired,High School,Connecticut,Donald Trump,69
+Female,White,Full-time,Master or PhD,New Jersey,Kamala Harris,59
+Female,Asian,Unemployed,Bachelor,Washington,Kamala Harris,47
+Female,White,Retired,High School,Arizona,Kamala Harris,74
+Male,Black,Part-time,High School,Ohio,Donald Trump,22
+Female,Other,Part-time,Master or PhD,Ohio,Kamala Harris,59
+Female,White,Full-time,Master or PhD,Pennsylvania,Kamala Harris,39
+Female,Hispanic,Unemployed,Other,Texas,Other,21
+Female,Hispanic,Full-time,College,Florida,Kamala Harris,30
+Male,Hispanic,Full-time,Other,New York,Kamala Harris,56
+Male,White,Full-time,Bachelor,Arizona,Kamala Harris,38
+Male,Hispanic,Full-time,Bachelor,North Carolina,Kamala Harris,30
+Male,White,Full-time,Bachelor,Illinois,Kamala Harris,30
+Female,White,Full-time,Bachelor,Texas,Donald Trump,26
+Female,White,Unemployed,High School,Texas,Kamala Harris,32
+Male,Hispanic,Full-time,College,Colorado,Kamala Harris,30
+Female,White,Full-time,Bachelor,California,Kamala Harris,34
+Male,White,Unemployed,High School,Wisconsin,Donald Trump,40
+Male,White,Full-time,College,Texas,Kamala Harris,50
+Female,Hispanic,Full-time,High School,Texas,Donald Trump,61
+Female,Hispanic,Unemployed,Bachelor,New Jersey,Kamala Harris,42
+Male,Other,Full-time,College,Florida,Kamala Harris,60
+Female,Hispanic,Unemployed,College,New Mexico,Kamala Harris,60
+Female,Hispanic,Full-time,College,California,Kamala Harris,24
+Male,Other,Full-time,College,Arizona,Donald Trump,50
+Female,Hispanic,Retired,High School,New York,Other,71
+Male,White,Full-time,College,New Jersey,Donald Trump,60
+Male,White,Unemployed,College,Illinois,Kamala Harris,20
+Female,Hispanic,Retired,College,Florida,Donald Trump,76
+Female,Hispanic,Unemployed,College,New York,Kamala Harris,55
+Male,Hispanic,Part-time,College,Florida,Donald Trump,58
+Male,Hispanic,Unemployed,Bachelor,California,Donald Trump,46
+Female,Hispanic,Full-time,Bachelor,Illinois,Donald Trump,48
+Male,Hispanic,Retired,High School,Florida,Kamala Harris,72
+Male,Hispanic,Part-time,College,Texas,Kamala Harris,26
+Female,Black,Part-time,Bachelor,Texas,Donald Trump,34
+Male,Hispanic,Full-time,High School,California,Donald Trump,27
+Female,Other,Full-time,Bachelor,Virginia,Donald Trump,23
+Female,Asian,Full-time,Bachelor,California,Kamala Harris,39
+Male,Black,Retired,College,Louisiana,Kamala Harris,65
+Female,White,Full-time,College,Maine,Kamala Harris,27
+Female,White,Full-time,Bachelor,Ohio,Kamala Harris,37
+Female,Black,Retired,College,Georgia,Kamala Harris,77
+Female,White,Full-time,College,Kansas,Other,42
+Female,White,Unemployed,Bachelor,California,Other,37
+Male,Other,Retired,Bachelor,Ohio,Donald Trump,67
+Female,White,Part-time,Bachelor,New York,Kamala Harris,22
+Female,Other,Retired,College,Idaho,Donald Trump,66
+Male,White,Unemployed,Bachelor,North Carolina,Kamala Harris,23
+Female,Other,Unemployed,College,California,Kamala Harris,25
+Female,Hispanic,Retired,High School,North Carolina,Kamala Harris,68
+Male,Black,Part-time,College,Maryland,Kamala Harris,61
+Male,Black,Retired,College,District of Columbia,Kamala Harris,73
+Male,Black,Full-time,College,Nevada,Donald Trump,49
+Female,Black,Part-time,Bachelor,Indiana,Kamala Harris,27
+Female,Hispanic,Retired,High School,Texas,Donald Trump,64
+Female,White,Full-time,Bachelor,Kentucky,Donald Trump,55
+Female,White,Full-time,Bachelor,Wisconsin,Kamala Harris,43
+Female,Black,Full-time,High School,Mississippi,Kamala Harris,49

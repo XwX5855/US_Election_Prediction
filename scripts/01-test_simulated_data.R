@@ -65,11 +65,11 @@ if (n_distinct(simulated_data$employ) >= 4) {
   stop("Test Failed: The 'employ' column contains less than 4 unique values.")
 }
 
-# Check if the 'education' column has at least 6 unique values
-if (n_distinct(simulated_data$education) >= 6) {
-  message("Test Passed: The 'education' column contains at least 6 unique values.")
+# Check if the 'education' column has at least 5 unique values
+if (n_distinct(simulated_data$education) >= 5) {
+  message("Test Passed: The 'education' column contains at least 5 unique values.")
 } else {
-  stop("Test Failed: The 'education' column contains less than 6 unique values.")
+  stop("Test Failed: The 'education' column contains less than 5 unique values.")
 }
 
 # Check if the 'state' column contains only valid US state names
@@ -82,6 +82,7 @@ valid_states <- c(
   "Colorado",
   "Connecticut",
   "Delaware",
+  "District of Columbia",
   "Florida",
   "Georgia",
   "Hawaii",
@@ -132,16 +133,16 @@ if (all(simulated_data$state %in% valid_states)) {
   stop("Test Failed: The 'state' column contains invalid state names.")
 }
 
+# Check if the 'vote' column has at least 3 unique values
+if (n_distinct(simulated_data$vote) >= 3) {
+  message("Test Passed: The 'vote' column contains at least 3 unique values.")
+} else {
+  stop("Test Failed: The 'vote' column contains less than 3 unique values.")
+}
+
 # Check if there are any missing values in the dataset
 if (all(!is.na(simulated_data))) {
   message("Test Passed: The dataset contains no missing values.")
 } else {
   stop("Test Failed: The dataset contains missing values.")
-}
-
-# Check if the 'vote' column has at least 2 unique values
-if (n_distinct(simulated_data$vote) >= 2) {
-  message("Test Passed: The 'vote' column contains at least 2 unique values.")
-} else {
-  stop("Test Failed: The 'vote' column contains less than 2 unique values.")
 }

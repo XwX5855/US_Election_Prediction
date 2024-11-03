@@ -1,69 +1,148 @@
 #### Preamble ####
-# Purpose: Tests... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 26 September 2024 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Tests the dataset recorded by America's Political Pulse.
+# Author: Yanzun Jiang
+# Date: 2 November 2024
+# Contact: yanzun.jiang@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: Should have cleaned the dataset.
+# Any other information needed? None.
 
 
 #### Workspace setup ####
 library(tidyverse)
-library(testthat)
 
-data <- read_csv("data/02-analysis_data/analysis_data.csv")
+analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
+
+# Test if the data was successfully loaded
+if (exists("analysis_data")) {
+  message("Test Passed: The dataset was successfully loaded.")
+} else {
+  stop("Test Failed: The dataset could not be loaded.")
+}
 
 
 #### Test data ####
-# Test that the dataset has 151 rows - there are 151 divisions in Australia
-test_that("dataset has 151 rows", {
-  expect_equal(nrow(analysis_data), 151)
-})
 
-# Test that the dataset has 3 columns
-test_that("dataset has 3 columns", {
-  expect_equal(ncol(analysis_data), 3)
-})
+# Check if the dataset has 1000 rows
+if (nrow(analysis_data) == 1000) {
+  message("Test Passed: The dataset has 1000 rows.")
+} else {
+  stop("Test Failed: The dataset does not have 1000 rows.")
+}
 
-# Test that the 'division' column is character type
-test_that("'division' is character", {
-  expect_type(analysis_data$division, "character")
-})
+# Check if the dataset has 7 columns
+if (ncol(analysis_data) == 7) {
+  message("Test Passed: The dataset has 7 columns.")
+} else {
+  stop("Test Failed: The dataset does not have 7 columns.")
+}
 
-# Test that the 'party' column is character type
-test_that("'party' is character", {
-  expect_type(analysis_data$party, "character")
-})
+# Check if the 'age' column contains only people above 18
+if (all(analysis_data$age >= 18)) {
+  message("Test Passed: The 'age' column contains only people above 18.")
+} else {
+  stop("Test Failed: The 'age' column contains people under 18.")
+}
 
-# Test that the 'state' column is character type
-test_that("'state' is character", {
-  expect_type(analysis_data$state, "character")
-})
+# Check if the 'gender' column has at least 2 unique values
+if (n_distinct(analysis_data$gender) >= 2) {
+  message("Test Passed: The 'gender' column contains at least 2 unique values.")
+} else {
+  stop("Test Failed: The 'gender' column contains less than 2 unique values.")
+}
 
-# Test that there are no missing values in the dataset
-test_that("no missing values in dataset", {
-  expect_true(all(!is.na(analysis_data)))
-})
+# Check if the 'race' column has at least 5 unique values
+if (n_distinct(analysis_data$race) >= 5) {
+  message("Test Passed: The 'race' column contains at least 5 unique values.")
+} else {
+  stop("Test Failed: The 'race' column contains less than 5 unique values.")
+}
 
-# Test that 'division' contains unique values (no duplicates)
-test_that("'division' column contains unique values", {
-  expect_equal(length(unique(analysis_data$division)), 151)
-})
+# Check if the 'employ' column has at least 4 unique values
+if (n_distinct(analysis_data$employ) >= 4) {
+  message("Test Passed: The 'employ' column contains at least 4 unique values.")
+} else {
+  stop("Test Failed: The 'employ' column contains less than 4 unique values.")
+}
 
-# Test that 'state' contains only valid Australian state or territory names
-valid_states <- c("New South Wales", "Victoria", "Queensland", "South Australia", "Western Australia", 
-                  "Tasmania", "Northern Territory", "Australian Capital Territory")
-test_that("'state' contains valid Australian state names", {
-  expect_true(all(analysis_data$state %in% valid_states))
-})
+# Check if the 'education' column has at least 5 unique values
+if (n_distinct(analysis_data$education) >= 5) {
+  message("Test Passed: The 'education' column contains at least 5 unique values.")
+} else {
+  stop("Test Failed: The 'education' column contains less than 5 unique values.")
+}
 
-# Test that there are no empty strings in 'division', 'party', or 'state' columns
-test_that("no empty strings in 'division', 'party', or 'state' columns", {
-  expect_false(any(analysis_data$division == "" | analysis_data$party == "" | analysis_data$state == ""))
-})
+# Check if the 'state' column contains only valid US state names
+valid_states <- c(
+  "Alabama",
+  "Alaska",
+  "Arizona",
+  "Arkansas",
+  "California",
+  "Colorado",
+  "Connecticut",
+  "Delaware",
+  "District of Columbia",
+  "Florida",
+  "Georgia",
+  "Hawaii",
+  "Idaho",
+  "Illinois",
+  "Indiana",
+  "Iowa",
+  "Kansas",
+  "Kentucky",
+  "Louisiana",
+  "Maine",
+  "Maryland",
+  "Massachusetts",
+  "Michigan",
+  "Minnesota",
+  "Mississippi",
+  "Missouri",
+  "Montana",
+  "Nebraska",
+  "Nevada",
+  "New Hampshire",
+  "New Jersey",
+  "New Mexico",
+  "New York",
+  "North Carolina",
+  "North Dakota",
+  "Ohio",
+  "Oklahoma",
+  "Oregon",
+  "Pennsylvania",
+  "Rhode Island",
+  "South Carolina",
+  "South Dakota",
+  "Tennessee",
+  "Texas",
+  "Utah",
+  "Vermont",
+  "Virginia",
+  "Washington",
+  "West Virginia",
+  "Wisconsin",
+  "Wyoming"
+)
 
-# Test that the 'party' column contains at least 2 unique values
-test_that("'party' column contains at least 2 unique values", {
-  expect_true(length(unique(analysis_data$party)) >= 2)
-})
+if (all(analysis_data$state %in% valid_states)) {
+  message("Test Passed: The 'state' column contains only valid US state names.")
+} else {
+  stop("Test Failed: The 'state' column contains invalid state names.")
+}
+
+# Check if the 'vote' column has at least 3 unique values
+if (n_distinct(analysis_data$vote) >= 3) {
+  message("Test Passed: The 'vote' column contains at least 3 unique values.")
+} else {
+  stop("Test Failed: The 'vote' column contains less than 3 unique values.")
+}
+
+# Check if there are any missing values in the dataset
+if (all(!is.na(analysis_data))) {
+  message("Test Passed: The dataset contains no missing values.")
+} else {
+  stop("Test Failed: The dataset contains missing values.")
+}
