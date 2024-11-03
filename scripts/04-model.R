@@ -32,7 +32,7 @@ model <-
     data = analysis_data,
     family = binomial,
     prior = normal(0, 2.5),
-    prior_intercept = normal(0, 5),
+    prior_intercept = normal(0, 2.5),
     seed = 24
   )
 
