@@ -1,11 +1,11 @@
 #### Preamble ####
-# Purpose: Models... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Tests the dataset recorded by America's Political Pulse.
+# Author: Yanzun Jiang
+# Date: 2 November 2024
+# Contact: yanzun.jiang@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: Should have cleaned the dataset.
+# Any other information needed? None.
 
 
 #### Workspace setup ####
@@ -13,25 +13,30 @@ library(tidyverse)
 library(rstanarm)
 
 #### Read data ####
-analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
+analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
 
-### Model data ####
-first_model <-
-  stan_glm(
-    formula = flying_time ~ length + width,
-    data = analysis_data,
-    family = gaussian(),
-    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_aux = exponential(rate = 1, autoscale = TRUE),
-    seed = 853
+### Model ####
+# Mutate datatype to fit the model
+analysis_data <-
+  analysis_data |>
+  mutate(vote_numeric = case_when(
+    vote == "Kamala Harris" ~ 0,
+    vote == "Other" ~ 0.5,
+    vote == "Donald Trump" ~ 1)
   )
+
+# Fit the model
+model <-
+  stan_glm(
+    formula = vote_numeric ~ age + gender + race + employ + education + state,
+    data = analysis_data,
+    family = binomial,
+    prior = normal(0, 2.5),
+    prior_intercept = normal(0, 5),
+    seed = 24
+  )
+summary(model)
 
 
 #### Save model ####
-saveRDS(
-  first_model,
-  file = "models/first_model.rds"
-)
-
-
+saveRDS(model, file = "models/model.rds")
