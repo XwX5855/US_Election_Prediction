@@ -1,0 +1,107 @@
+---
+title: "Predicting the Winner of the U.S. Presidential Election"
+subtitle: "A Case Study of Madison, Wisconsin"
+author: 
+  - Yanzun Jiang
+  - Wenxin Xu
+  - Tong Chang
+thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+date: 4/11/2024
+date-format: long
+abstract: "This paper employs polling data from Madison, Wisconsin, to build a linear model predicting the winner of the 2024 U.S. Presidential Election. By analyzing shifts in support rates for Trump and Harris, we identify key factors influencing voter preferences. The results reveal significant correlations between certain socio-economic indicators and candidate support rates, providing strategic insights for election campaigns."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+# 1.Introduction
+
+The U.S. Presidential Election garners worldwide attention, and accurate election predictions are critical for political analysis and strategy formulation. Wisconsin, a crucial swing state, plays a significant role in shaping the national outcome. However, there is a gap in detailed analysis of voter behavior in this region. This paper aims to fill this gap by constructing a linear model to analyze polling data from Madison, Wisconsin, and predict the 2024 presidential election winner.
+
+
+# 2.Data {#sec-data}
+
+## Overview
+
+取决于你的信息来源
+
+## Measurement
+The data include monthly support rates for Trump and Harris, alongside related socio-economic variables such as age, gender, education level, and income. Standard polling methods ensure data reliability and validity.
+	
+Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
+
+## Data Cleaning
+取决于你的清理方法
+
+## Outcome variables
+表格        /川普支持率 哈里斯支持率 
+      even 
+      Var 
+      min 
+      max 
+以及有什么表格就尽量方 后续再分析
+# 3. Model
+
+## Model Specifications
+介绍你使用的模型 通过数学公式 例如\text{Support Rate} = \beta_0 + \beta_1 \times \text{Age} + \beta_2 \times \text{Gender} + \beta_3 \times \text{Education Level} + \beta_4 \times \text{Income} + \epsilon
+
+## Model Validation
+展示残差或者其他内容的图标来说明模型的准确性
+
+## Model Justification and Limitations
+取决于你使用了什么样的模型 在展开描述
+
+# 4Results
+
+## Overall Trends
+展示选民支持率随时间变换的折线图
+
+## Prediction Visualization
+展示对选民支持率接下来走向的预测图
+
+## Model Diagnostics
+展示模型的R值 判断预测是否正确
+
+# 5.Discussion
+
+
+## Limitation
+
+## Weaknesses and next steps
+
+
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+
+# Additional data details
+
+# Model details {#sec-model-details}
+
+## Posterior predictive check
+
+## Diagnostics
+
+
+
+
+\newpage
+
+
+# References
+
+
